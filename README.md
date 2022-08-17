@@ -1,6 +1,12 @@
 # Benchmark Suite for Clustering Algorithms
 ## Version 1
 
+
+> TODO: The benchmark suite will have a new homepage
+> in the near future: <https://github.com/gagolews/clustering-benchmarks>.
+> Stay tuned.
+
+
 Maintained by [Marek Gagolewski](https://www.gagolewski.com).
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3815066.svg)](https://doi.org/10.5281/zenodo.3815066)
