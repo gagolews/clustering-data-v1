@@ -31,8 +31,9 @@ Additionally, mention the exact version of this benchmark suite
 (see *Changelog* below for version information):
 
 > Gagolewski M. et al. (Eds.), *A Benchmark Suite for Clustering Algorithms:
-Version 1.x.x*, 20xx, <https://github.com/gagolews/clustering-data-v1>,
-DOI: 10.5281/zenodo.xxxxxxxx.
+Version 1.x.x*, 20xx,
+<https://github.com/gagolews/clustering-data-v1/releases/tag/v1.x.x>,
+DOI: 10.5281/zenodo.xxxxxxx.
 
 The datasets are provided **solely for research purposes**,
 unless stated otherwise. Please cite the literature references mentioned
@@ -63,11 +64,16 @@ downloadable snapshots.
 -   The project's homepage has been created. It is available at
     <https://clustering-benchmarks.gagolewski.com>.
 
+-   The historical snapshot of this release is available at
+    DOI: [10.5281/zenodo.7066690](https://doi.org/10.5281/zenodo.7066690).
+
 
 ###  1.0.0 (2020-05-08)
 
 -   Datasets in the 1st (v1.0.0) version of the benchmark
-    battery are now frozen. The historical snapshot is available at
+    battery are now frozen.
+
+-   The historical snapshot of this release is available at
     DOI: [10.5281/zenodo.3815066](https://doi.org/10.5281/zenodo.3815066).
 
 
