@@ -1,13 +1,13 @@
-Fashion-MNIST is a dataset of Zalando’s article images
+Fashion-MNIST is a dataset of images of Zalando articles
 -- train and test sample combined
 
 Authors: Han Xiao, Kashif Rasul and Roland Vollgraf
 
-Source: https://github.com/zalandoresearch/fashion-mnist
+Citation: Fashion-MNIST: A Novel Image Dataset for Benchmarking Machine
+Learning Algorithms. Han Xiao, Kashif Rasul, Roland Vollgraf.
+<https://arxiv.org/abs/1702.05373v1>
 
-Citation: Fashion-MNIST: a Novel Image Dataset for Benchmarking Machine
-Learning Algorithms. Han Xiao, Kashif Rasul, Roland Vollgraf. arXiv:1708.07747
-
+Source: <https://github.com/zalandoresearch/fashion-mnist>
 
 `labels0` come from the authors.
 

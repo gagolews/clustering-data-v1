@@ -1,5 +1,5 @@
 Set name: Circles
-Author: Aleksander Truszczynski (Warsaw University of Technology)
+Author: Aleksander Truszczyński (Warsaw University of Technology)
 
 Copyleft 2019
 Licensed under the Creative Commons Attribution 4.0 International License.
