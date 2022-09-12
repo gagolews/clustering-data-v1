@@ -6,30 +6,30 @@ is authored/edited/maintained by [Marek Gagolewski](https://www.gagolewski.com)*
 
 **Datasets**
 
-* [sipu/a1](#sipu_a1)
-* [sipu/a2](#sipu_a2)
-* [sipu/a3](#sipu_a3)
-* [sipu/aggregation](#sipu_aggregation)
-* [sipu/birch1](#sipu_birch1)
-* [sipu/birch2](#sipu_birch2)
-* [sipu/compound](#sipu_compound)
-* [sipu/d31](#sipu_d31)
-* [sipu/flame](#sipu_flame)
-* [sipu/jain](#sipu_jain)
-* [sipu/pathbased](#sipu_pathbased)
-* [sipu/r15](#sipu_r15)
-* [sipu/s1](#sipu_s1)
-* [sipu/s2](#sipu_s2)
-* [sipu/s3](#sipu_s3)
-* [sipu/s4](#sipu_s4)
-* [sipu/spiral](#sipu_spiral)
-* [sipu/unbalance](#sipu_unbalance)
-* [sipu/worms_2](#sipu_worms_2)
-* [sipu/worms_64](#sipu_worms_64)
+* [sipu/a1](#a1)
+* [sipu/a2](#a2)
+* [sipu/a3](#a3)
+* [sipu/aggregation](#aggregation)
+* [sipu/birch1](#birch1)
+* [sipu/birch2](#birch2)
+* [sipu/compound](#compound)
+* [sipu/d31](#d31)
+* [sipu/flame](#flame)
+* [sipu/jain](#jain)
+* [sipu/pathbased](#pathbased)
+* [sipu/r15](#r15)
+* [sipu/s1](#s1)
+* [sipu/s2](#s2)
+* [sipu/s3](#s3)
+* [sipu/s4](#s4)
+* [sipu/spiral](#spiral)
+* [sipu/unbalance](#unbalance)
+* [sipu/worms_2](#worms_2)
+* [sipu/worms_64](#worms_64)
 
 --------------------------------------------------------------------------------
 
-## sipu/a1 (n=3000, d=2) <a name="sipu_a1"></a>
+## sipu/a1 (n=3000, d=2) <a name="a1"></a>
 
     Source: I. Kärkkäinen, P. Fränti, Dynamic local search algorithm
     for the clustering problem, Research Report A-2002-6.
@@ -45,7 +45,7 @@ is authored/edited/maintained by [Marek Gagolewski](https://www.gagolewski.com)*
 
 #### `labels0`
 
-true_k=20, noise=    0, true_g=0.000
+true_k=20, noise=    0
 
 label_counts=[150, 150, 150, 150, 150, 150, 150, 150, 150, 150, 150, 150, 150, 150, 150, 150, 150, 150, 150, 150]
 
@@ -54,7 +54,7 @@ label_counts=[150, 150, 150, 150, 150, 150, 150, 150, 150, 150, 150, 150, 150, 1
 
 
 
-## sipu/a2 (n=5250, d=2) <a name="sipu_a2"></a>
+## sipu/a2 (n=5250, d=2) <a name="a2"></a>
 
     Source: I. Kärkkäinen, P. Fränti, Dynamic local search algorithm
     for the clustering problem, Research Report A-2002-6.
@@ -70,7 +70,7 @@ label_counts=[150, 150, 150, 150, 150, 150, 150, 150, 150, 150, 150, 150, 150, 1
 
 #### `labels0`
 
-true_k=35, noise=    0, true_g=0.000
+true_k=35, noise=    0
 
 label_counts=[150, 150, 150, 150, 150, 150, 150, 150, 150, 150, 150, 150, 150, 150, 150, 150, 150, 150, 150, 150, 150, 150, 150, 150, 150, 150, 150, 150, 150, 150, 150, 150, 150, 150, 150]
 
@@ -79,7 +79,7 @@ label_counts=[150, 150, 150, 150, 150, 150, 150, 150, 150, 150, 150, 150, 150, 1
 
 
 
-## sipu/a3 (n=7500, d=2) <a name="sipu_a3"></a>
+## sipu/a3 (n=7500, d=2) <a name="a3"></a>
 
     Source: I. Kärkkäinen, P. Fränti, Dynamic local search algorithm
     for the clustering problem, Research Report A-2002-6.
@@ -95,7 +95,7 @@ label_counts=[150, 150, 150, 150, 150, 150, 150, 150, 150, 150, 150, 150, 150, 1
 
 #### `labels0`
 
-true_k=50, noise=    0, true_g=0.000
+true_k=50, noise=    0
 
 label_counts=[150, 150, 150, 150, 150, 150, 150, 150, 150, 150, 150, 150, 150, 150, 150, 150, 150, 150, 150, 150, 150, 150, 150, 150, 150, 150, 150, 150, 150, 150, 150, 150, 150, 150, 150, 150, 150, 150, 150, 150, 150, 150, 150, 150, 150, 150, 150, 150, 150, 150]
 
@@ -104,7 +104,7 @@ label_counts=[150, 150, 150, 150, 150, 150, 150, 150, 150, 150, 150, 150, 150, 1
 
 
 
-## sipu/aggregation (n=788, d=2) <a name="sipu_aggregation"></a>
+## sipu/aggregation (n=788, d=2) <a name="aggregation"></a>
 
     Source: A. Gionis, H. Mannila, P. Tsaparas, Clustering aggregation,
     ACM Transactions on Knowledge Discovery from Data (TKDD), 2007, pp. 1-30.
@@ -118,7 +118,7 @@ label_counts=[150, 150, 150, 150, 150, 150, 150, 150, 150, 150, 150, 150, 150, 1
 
 #### `labels0`
 
-true_k= 7, noise=    0, true_g=0.454
+true_k= 7, noise=    0
 
 label_counts=[273, 170, 130, 102, 45, 34, 34]
 
@@ -127,7 +127,7 @@ label_counts=[273, 170, 130, 102, 45, 34, 34]
 
 
 
-## sipu/birch1 (n=100000, d=2) <a name="sipu_birch1"></a>
+## sipu/birch1 (n=100000, d=2) <a name="birch1"></a>
 
     Source: Zhang et al., BIRCH: A new data clustering algorithm and its applications,
     Data Mining and Knowledge Discovery, 1 (2), 141-182, 1997.
@@ -140,7 +140,7 @@ label_counts=[273, 170, 130, 102, 45, 34, 34]
 
 #### `labels0`
 
-true_k=100, noise=    0, true_g=0.008
+true_k=100, noise=    0
 
 label_counts=[1011, 982, 998, 1013, 1002, 982, 1023, 999, 999, 992, 1001, 1007, 980, 997, 998, 1007, 990, 989, 1028, 989, 993, 1002, 998, 1034, 1016, 979, 1005, 994, 992, 1019, 998, 991, 1007, 973, 996, 999, 994, 988, 1002, 981, 1022, 993, 991, 1019, 996, 1021, 991, 1009, 1009, 998, 995, 1000, 1017, 981, 1012, 998, 1001, 1002, 987, 1005, 1005, 975, 1024, 992, 992, 996, 1013, 972, 1016, 993, 1018, 993, 980, 999, 1011, 1007, 983, 998, 1017, 1001, 986, 1017, 1003, 1022, 1012, 1004, 1018, 1025, 1002, 988, 993, 1003, 996, 991, 995, 983, 1003, 975, 1014, 990]
 
@@ -149,7 +149,7 @@ label_counts=[1011, 982, 998, 1013, 1002, 982, 1023, 999, 999, 992, 1001, 1007, 
 
 
 
-## sipu/birch2 (n=100000, d=2) <a name="sipu_birch2"></a>
+## sipu/birch2 (n=100000, d=2) <a name="birch2"></a>
 
     Source: Zhang et al., BIRCH: A new data clustering algorithm and its applications,
     Data Mining and Knowledge Discovery, 1 (2), 141-182, 1997.
@@ -162,7 +162,7 @@ label_counts=[1011, 982, 998, 1013, 1002, 982, 1023, 999, 999, 992, 1001, 1007, 
 
 #### `labels0`
 
-true_k=100, noise=    0, true_g=0.000
+true_k=100, noise=    0
 
 label_counts=[1000, 1000, 1000, 1000, 1002, 997, 999, 1002, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 999, 1000, 1000, 1000, 1001, 999, 1001, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1001, 999, 999, 1001, 1000, 1000, 1000, 1000, 1000, 1000, 1001, 1000, 998, 1002, 1001, 998, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1001, 998, 1001, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 999, 999, 1004, 999, 1000, 999, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1001, 997, 1002, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1001, 997, 1002, 1000, 1000, 1000, 1000, 1000, 1000]
 
@@ -171,7 +171,7 @@ label_counts=[1000, 1000, 1000, 1000, 1002, 997, 999, 1002, 1000, 1000, 1000, 10
 
 
 
-## sipu/compound (n=399, d=2) <a name="sipu_compound"></a>
+## sipu/compound (n=399, d=2) <a name="compound"></a>
 
     Source: C.T. Zahn, Graph-theoretical methods for detecting and describing
     gestalt clusters, IEEE Transactions on Computers C-20(1), 1971, pp. 68-86.
@@ -186,7 +186,7 @@ label_counts=[1000, 1000, 1000, 1000, 1002, 997, 999, 1002, 1000, 1000, 1000, 10
 
 #### `labels0`
 
-true_k= 6, noise=    0, true_g=0.440
+true_k= 6, noise=    0
 
 label_counts=[158, 92, 50, 45, 38, 16]
 
@@ -194,7 +194,7 @@ label_counts=[158, 92, 50, 45, 38, 16]
 
 #### `labels1`
 
-true_k= 4, noise=    0, true_g=0.405
+true_k= 4, noise=    0
 
 label_counts=[158, 142, 83, 16]
 
@@ -202,7 +202,7 @@ label_counts=[158, 142, 83, 16]
 
 #### `labels2`
 
-true_k= 5, noise=   50, true_g=0.483
+true_k= 5, noise=   50
 
 label_counts=[158, 92, 44, 39, 16]
 
@@ -210,7 +210,7 @@ label_counts=[158, 92, 44, 39, 16]
 
 #### `labels3`
 
-true_k= 4, noise=   50, true_g=0.415
+true_k= 4, noise=   50
 
 label_counts=[158, 92, 83, 16]
 
@@ -218,7 +218,7 @@ label_counts=[158, 92, 83, 16]
 
 #### `labels4`
 
-true_k= 5, noise=    0, true_g=0.485
+true_k= 5, noise=    0
 
 label_counts=[158, 142, 44, 39, 16]
 
@@ -227,7 +227,7 @@ label_counts=[158, 142, 44, 39, 16]
 
 
 
-## sipu/d31 (n=3100, d=2) <a name="sipu_d31"></a>
+## sipu/d31 (n=3100, d=2) <a name="d31"></a>
 
     Source: C.J. Veenman, M.J.T. Reinders, E. Backer, A maximum variance cluster
     algorithm, IEEE Transactions on Pattern Analysis and Machine Intelligence 24(9),
@@ -241,7 +241,7 @@ label_counts=[158, 142, 44, 39, 16]
 
 #### `labels0`
 
-true_k=31, noise=    0, true_g=0.000
+true_k=31, noise=    0
 
 label_counts=[100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100]
 
@@ -250,7 +250,7 @@ label_counts=[100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 1
 
 
 
-## sipu/flame (n=240, d=2) <a name="sipu_flame"></a>
+## sipu/flame (n=240, d=2) <a name="flame"></a>
 
     Source: L. Fu, E. Medico, FLAME, a novel fuzzy clustering method for
     the analysis of DNA microarray data, BMC Bioinformatics 8, 2007, p. 3.
@@ -265,7 +265,7 @@ label_counts=[100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 1
 
 #### `labels0`
 
-true_k= 2, noise=    0, true_g=0.275
+true_k= 2, noise=    0
 
 label_counts=[153, 87]
 
@@ -273,7 +273,7 @@ label_counts=[153, 87]
 
 #### `labels1`
 
-true_k= 2, noise=   12, true_g=0.272
+true_k= 2, noise=   12
 
 label_counts=[145, 83]
 
@@ -282,7 +282,7 @@ label_counts=[145, 83]
 
 
 
-## sipu/jain (n=373, d=2) <a name="sipu_jain"></a>
+## sipu/jain (n=373, d=2) <a name="jain"></a>
 
     Source: A. Jain, M. Law, Data clustering: A user’s dilemma,
     Lecture Notes in Computer Science 3776, 2005, pp. 1-10.
@@ -295,7 +295,7 @@ label_counts=[145, 83]
 
 #### `labels0`
 
-true_k= 2, noise=    0, true_g=0.480
+true_k= 2, noise=    0
 
 label_counts=[276, 97]
 
@@ -304,7 +304,7 @@ label_counts=[276, 97]
 
 
 
-## sipu/pathbased (n=300, d=2) <a name="sipu_pathbased"></a>
+## sipu/pathbased (n=300, d=2) <a name="pathbased"></a>
 
     Source: H. Chang, D.Y. Yeung, Robust path-based spectral clustering,
     Pattern Recognition 41(1), 2008, pp. 191-203.
@@ -319,7 +319,7 @@ label_counts=[276, 97]
 
 #### `labels0`
 
-true_k= 3, noise=    0, true_g=0.057
+true_k= 3, noise=    0
 
 label_counts=[110, 97, 93]
 
@@ -327,7 +327,7 @@ label_counts=[110, 97, 93]
 
 #### `labels1`
 
-true_k= 4, noise=    0, true_g=0.196
+true_k= 4, noise=    0
 
 label_counts=[98, 94, 56, 52]
 
@@ -336,7 +336,7 @@ label_counts=[98, 94, 56, 52]
 
 
 
-## sipu/r15 (n=600, d=2) <a name="sipu_r15"></a>
+## sipu/r15 (n=600, d=2) <a name="r15"></a>
 
     Source: C.J. Veenman, M.J.T. Reinders, E. Backer, A maximum variance cluster
     algorithm, IEEE Transactions on Pattern Analysis and Machine Intelligence 24(9),
@@ -352,7 +352,7 @@ label_counts=[98, 94, 56, 52]
 
 #### `labels0`
 
-true_k=15, noise=    0, true_g=0.000
+true_k=15, noise=    0
 
 label_counts=[40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40]
 
@@ -360,7 +360,7 @@ label_counts=[40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40]
 
 #### `labels1`
 
-true_k= 9, noise=    0, true_g=0.400
+true_k= 9, noise=    0
 
 label_counts=[280, 40, 40, 40, 40, 40, 40, 40, 40]
 
@@ -368,7 +368,7 @@ label_counts=[280, 40, 40, 40, 40, 40, 40, 40, 40]
 
 #### `labels2`
 
-true_k= 8, noise=    0, true_g=0.467
+true_k= 8, noise=    0
 
 label_counts=[320, 40, 40, 40, 40, 40, 40, 40]
 
@@ -377,7 +377,7 @@ label_counts=[320, 40, 40, 40, 40, 40, 40, 40]
 
 
 
-## sipu/s1 (n=5000, d=2) <a name="sipu_s1"></a>
+## sipu/s1 (n=5000, d=2) <a name="s1"></a>
 
     Source: P. Fränti, O. Virmajoki,
     Iterative shrinking method for clustering problems,
@@ -394,7 +394,7 @@ label_counts=[320, 40, 40, 40, 40, 40, 40, 40]
 
 #### `labels0`
 
-true_k=15, noise=    0, true_g=0.028
+true_k=15, noise=    0
 
 label_counts=[300, 316, 314, 318, 325, 326, 334, 338, 341, 342, 347, 349, 350, 350, 350]
 
@@ -403,7 +403,7 @@ label_counts=[300, 316, 314, 318, 325, 326, 334, 338, 341, 342, 347, 349, 350, 3
 
 
 
-## sipu/s2 (n=5000, d=2) <a name="sipu_s2"></a>
+## sipu/s2 (n=5000, d=2) <a name="s2"></a>
 
     Source: P. Fränti, O. Virmajoki,
     Iterative shrinking method for clustering problems,
@@ -420,7 +420,7 @@ label_counts=[300, 316, 314, 318, 325, 326, 334, 338, 341, 342, 347, 349, 350, 3
 
 #### `labels0`
 
-true_k=15, noise=    0, true_g=0.027
+true_k=15, noise=    0
 
 label_counts=[300, 317, 315, 320, 321, 329, 334, 333, 340, 345, 346, 350, 350, 350, 350]
 
@@ -429,7 +429,7 @@ label_counts=[300, 317, 315, 320, 321, 329, 334, 333, 340, 345, 346, 350, 350, 3
 
 
 
-## sipu/s3 (n=5000, d=2) <a name="sipu_s3"></a>
+## sipu/s3 (n=5000, d=2) <a name="s3"></a>
 
     Source: P. Fränti, O. Virmajoki,
     Iterative shrinking method for clustering problems,
@@ -446,7 +446,7 @@ label_counts=[300, 317, 315, 320, 321, 329, 334, 333, 340, 345, 346, 350, 350, 3
 
 #### `labels0`
 
-true_k=15, noise=    0, true_g=0.026
+true_k=15, noise=    0
 
 label_counts=[300, 321, 316, 323, 322, 331, 333, 337, 334, 337, 346, 350, 350, 350, 350]
 
@@ -455,7 +455,7 @@ label_counts=[300, 321, 316, 323, 322, 331, 333, 337, 334, 337, 346, 350, 350, 3
 
 
 
-## sipu/s4 (n=5000, d=2) <a name="sipu_s4"></a>
+## sipu/s4 (n=5000, d=2) <a name="s4"></a>
 
     Source: P. Fränti, O. Virmajoki,
     Iterative shrinking method for clustering problems,
@@ -472,7 +472,7 @@ label_counts=[300, 321, 316, 323, 322, 331, 333, 337, 334, 337, 346, 350, 350, 3
 
 #### `labels0`
 
-true_k=15, noise=    0, true_g=0.026
+true_k=15, noise=    0
 
 label_counts=[300, 316, 327, 320, 323, 324, 327, 336, 337, 344, 347, 350, 349, 350, 350]
 
@@ -481,7 +481,7 @@ label_counts=[300, 316, 327, 320, 323, 324, 327, 336, 337, 344, 347, 350, 349, 3
 
 
 
-## sipu/spiral (n=312, d=2) <a name="sipu_spiral"></a>
+## sipu/spiral (n=312, d=2) <a name="spiral"></a>
 
     Source: H. Chang, D.Y. Yeung, Robust path-based spectral clustering,
     Pattern Recognition 41(1), 2008, pp. 191-203.
@@ -494,7 +494,7 @@ label_counts=[300, 316, 327, 320, 323, 324, 327, 336, 337, 344, 347, 350, 349, 3
 
 #### `labels0`
 
-true_k= 3, noise=    0, true_g=0.016
+true_k= 3, noise=    0
 
 label_counts=[101, 105, 106]
 
@@ -503,7 +503,7 @@ label_counts=[101, 105, 106]
 
 
 
-## sipu/unbalance (n=6500, d=2) <a name="sipu_unbalance"></a>
+## sipu/unbalance (n=6500, d=2) <a name="unbalance"></a>
 
     Source: M. Rezaei, P. Fränti, Set-matching methods for external cluster
     validity, IEEE Trans. on Knowledge and Data Engineering, 28(8), pp. 2173-2186, 2016.
@@ -516,7 +516,7 @@ label_counts=[101, 105, 106]
 
 #### `labels0`
 
-true_k= 8, noise=    0, true_g=0.626
+true_k= 8, noise=    0
 
 label_counts=[2000, 2000, 2000, 100, 100, 100, 100, 100]
 
@@ -525,7 +525,7 @@ label_counts=[2000, 2000, 2000, 100, 100, 100, 100, 100]
 
 
 
-## sipu/worms_2 (n=105600, d=2) <a name="sipu_worms_2"></a>
+## sipu/worms_2 (n=105600, d=2) <a name="worms_2"></a>
 
     Synthetic 2D data with worm-like shapes
     
@@ -541,7 +541,7 @@ label_counts=[2000, 2000, 2000, 100, 100, 100, 100, 100]
 
 #### `labels0`
 
-true_k=35, noise=    0, true_g=0.283
+true_k=35, noise=    0
 
 label_counts=[3120, 4560, 4368, 4008, 3648, 3144, 1992, 1008, 4464, 936, 2904, 1296, 2496, 2328, 4968, 5880, 3696, 4896, 2160, 2160, 3048, 5640, 1752, 1176, 4968, 4920, 768, 2472, 1392, 1752, 3840, 2664, 840, 3336, 3000]
 
@@ -550,7 +550,7 @@ label_counts=[3120, 4560, 4368, 4008, 3648, 3144, 1992, 1008, 4464, 936, 2904, 1
 
 
 
-## sipu/worms_64 (n=105000, d=64) <a name="sipu_worms_64"></a>
+## sipu/worms_64 (n=105000, d=64) <a name="worms_64"></a>
 
     Synthetic 64D data with worm-like shapes
     
@@ -566,7 +566,7 @@ label_counts=[3120, 4560, 4368, 4008, 3648, 3144, 1992, 1008, 4464, 936, 2904, 1
 
 #### `labels0`
 
-true_k=25, noise=    0, true_g=0.000
+true_k=25, noise=    0
 
 label_counts=[4200, 4200, 4200, 4200, 4200, 4200, 4200, 4200, 4200, 4200, 4200, 4200, 4200, 4200, 4200, 4200, 4200, 4200, 4200, 4200, 4200, 4200, 4200, 4200, 4200]
 

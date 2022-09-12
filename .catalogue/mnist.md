@@ -6,12 +6,12 @@ is authored/edited/maintained by [Marek Gagolewski](https://www.gagolewski.com)*
 
 **Datasets**
 
-* [mnist/digits](#mnist_digits)
-* [mnist/fashion](#mnist_fashion)
+* [mnist/digits](#digits)
+* [mnist/fashion](#fashion)
 
 --------------------------------------------------------------------------------
 
-## mnist/digits (n=70000, d=784) <a name="mnist_digits"></a>
+## mnist/digits (n=70000, d=784) <a name="digits"></a>
 
     THE MNIST DATABASE of handwritten digits
     -- train and test samples combined
@@ -31,7 +31,7 @@ is authored/edited/maintained by [Marek Gagolewski](https://www.gagolewski.com)*
 
 #### `labels0`
 
-true_k=10, noise=    0, true_g=0.031
+true_k=10, noise=    0
 
 label_counts=[7877, 6990, 7141, 6824, 6313, 6876, 7293, 6825, 6958, 6903]
 
@@ -41,7 +41,7 @@ label_counts=[7877, 6990, 7141, 6824, 6313, 6876, 7293, 6825, 6958, 6903]
 
 
 
-## mnist/fashion (n=70000, d=784) <a name="mnist_fashion"></a>
+## mnist/fashion (n=70000, d=784) <a name="fashion"></a>
 
     Fashion-MNIST is a dataset of images of Zalando articles
     -- train and test sample combined
@@ -82,7 +82,7 @@ label_counts=[7877, 6990, 7141, 6824, 6313, 6876, 7293, 6825, 6958, 6903]
 
 #### `labels0`
 
-true_k=10, noise=    0, true_g=0.000
+true_k=10, noise=    0
 
 label_counts=[7000, 7000, 7000, 7000, 7000, 7000, 7000, 7000, 7000, 7000]
 

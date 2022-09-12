@@ -6,18 +6,18 @@ is authored/edited/maintained by [Marek Gagolewski](https://www.gagolewski.com)*
 
 **Datasets**
 
-* [other/chameleon_t4_8k](#other_chameleon_t4_8k)
-* [other/chameleon_t5_8k](#other_chameleon_t5_8k)
-* [other/chameleon_t7_10k](#other_chameleon_t7_10k)
-* [other/chameleon_t8_8k](#other_chameleon_t8_8k)
-* [other/hdbscan](#other_hdbscan)
-* [other/iris](#other_iris)
-* [other/iris5](#other_iris5)
-* [other/square](#other_square)
+* [other/chameleon_t4_8k](#chameleon_t4_8k)
+* [other/chameleon_t5_8k](#chameleon_t5_8k)
+* [other/chameleon_t7_10k](#chameleon_t7_10k)
+* [other/chameleon_t8_8k](#chameleon_t8_8k)
+* [other/hdbscan](#hdbscan)
+* [other/iris](#iris)
+* [other/iris5](#iris5)
+* [other/square](#square)
 
 --------------------------------------------------------------------------------
 
-## other/chameleon_t4_8k (n=8000, d=2) <a name="other_chameleon_t4_8k"></a>
+## other/chameleon_t4_8k (n=8000, d=2) <a name="chameleon_t4_8k"></a>
 
     It is often suggested that the source is: G. Karypis, E.H. Han, V. Kumar,
     CHAMELEON: A hierarchical clustering algorithm using dynamic modeling,
@@ -33,7 +33,7 @@ is authored/edited/maintained by [Marek Gagolewski](https://www.gagolewski.com)*
 
 #### `labels0`
 
-true_k= 6, noise=  761, true_g=0.251
+true_k= 6, noise=  761
 
 label_counts=[1741, 1669, 1559, 965, 658, 647]
 
@@ -42,7 +42,7 @@ label_counts=[1741, 1669, 1559, 965, 658, 647]
 
 
 
-## other/chameleon_t5_8k (n=8000, d=2) <a name="other_chameleon_t5_8k"></a>
+## other/chameleon_t5_8k (n=8000, d=2) <a name="chameleon_t5_8k"></a>
 
     It is often suggested that the source is:  G. Karypis, E.H. Han, V. Kumar,
     CHAMELEON: A hierarchical clustering algorithm using dynamic modeling,
@@ -58,7 +58,7 @@ label_counts=[1741, 1669, 1559, 965, 658, 647]
 
 #### `labels0`
 
-true_k= 6, noise= 1187, true_g=0.033
+true_k= 6, noise= 1187
 
 label_counts=[1193, 1188, 1166, 1160, 1056, 1050]
 
@@ -67,7 +67,7 @@ label_counts=[1193, 1188, 1166, 1160, 1056, 1050]
 
 
 
-## other/chameleon_t7_10k (n=10000, d=2) <a name="other_chameleon_t7_10k"></a>
+## other/chameleon_t7_10k (n=10000, d=2) <a name="chameleon_t7_10k"></a>
 
     Source: G. Karypis, E.H. Han, V. Kumar,
     CHAMELEON: A hierarchical clustering algorithm using dynamic modeling,
@@ -82,7 +82,7 @@ label_counts=[1193, 1188, 1166, 1160, 1056, 1050]
 
 #### `labels0`
 
-true_k= 9, noise=  926, true_g=0.473
+true_k= 9, noise=  926
 
 label_counts=[2722, 2198, 1031, 975, 615, 589, 349, 332, 263]
 
@@ -91,7 +91,7 @@ label_counts=[2722, 2198, 1031, 975, 615, 589, 349, 332, 263]
 
 
 
-## other/chameleon_t8_8k (n=8000, d=2) <a name="other_chameleon_t8_8k"></a>
+## other/chameleon_t8_8k (n=8000, d=2) <a name="chameleon_t8_8k"></a>
 
     Source: G. Karypis, E.H. Han, V. Kumar,
     CHAMELEON: A hierarchical clustering algorithm using dynamic modeling,
@@ -106,7 +106,7 @@ label_counts=[2722, 2198, 1031, 975, 615, 589, 349, 332, 263]
 
 #### `labels0`
 
-true_k= 8, noise=  346, true_g=0.365
+true_k= 8, noise=  346
 
 label_counts=[1554, 1451, 1450, 1383, 1110, 350, 181, 175]
 
@@ -115,7 +115,7 @@ label_counts=[1554, 1451, 1450, 1383, 1110, 350, 181, 175]
 
 
 
-## other/hdbscan (n=2309, d=2) <a name="other_hdbscan"></a>
+## other/hdbscan (n=2309, d=2) <a name="hdbscan"></a>
 
     Source: A high performance implementation of HDBSCAN clustering.
     http://hdbscan.readthedocs.io/en/latest/ Copyright (c) 2015, Leland McInnes;
@@ -131,7 +131,7 @@ label_counts=[1554, 1451, 1450, 1383, 1110, 350, 181, 175]
 
 #### `labels0`
 
-true_k= 6, noise=  510, true_g=0.181
+true_k= 6, noise=  510
 
 label_counts=[410, 366, 326, 306, 207, 184]
 
@@ -140,7 +140,7 @@ label_counts=[410, 366, 326, 306, 207, 184]
 
 
 
-## other/iris (n=150, d=4) <a name="other_iris"></a>
+## other/iris (n=150, d=4) <a name="iris"></a>
 
     The (? - see below) famous Fisher's *iris* data set.
     
@@ -165,7 +165,7 @@ label_counts=[410, 366, 326, 306, 207, 184]
 
 #### `labels0`
 
-true_k= 3, noise=    0, true_g=0.000
+true_k= 3, noise=    0
 
 label_counts=[50, 50, 50]
 
@@ -175,7 +175,7 @@ label_counts=[50, 50, 50]
 
 
 
-## other/iris5 (n=105, d=4) <a name="other_iris5"></a>
+## other/iris5 (n=105, d=4) <a name="iris5"></a>
 
     An imbalanced version of the famous Fisher's *iris* data set,
     in which we take only 5 last observations from the 1st group (*iris setosa*).
@@ -194,7 +194,7 @@ label_counts=[50, 50, 50]
 
 #### `labels0`
 
-true_k= 3, noise=    0, true_g=0.429
+true_k= 3, noise=    0
 
 label_counts=[5, 50, 50]
 
@@ -204,7 +204,7 @@ label_counts=[5, 50, 50]
 
 
 
-## other/square (n=1000, d=2) <a name="other_square"></a>
+## other/square (n=1000, d=2) <a name="square"></a>
 
     Source:  <unknown>
     
@@ -214,7 +214,7 @@ label_counts=[5, 50, 50]
 
 #### `labels0`
 
-true_k= 2, noise=    0, true_g=0.000
+true_k= 2, noise=    0
 
 label_counts=[500, 500]
 

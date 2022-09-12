@@ -6,19 +6,19 @@ is authored/edited/maintained by [Marek Gagolewski](https://www.gagolewski.com)*
 
 **Datasets**
 
-* [fcps/atom](#fcps_atom)
-* [fcps/chainlink](#fcps_chainlink)
-* [fcps/engytime](#fcps_engytime)
-* [fcps/hepta](#fcps_hepta)
-* [fcps/lsun](#fcps_lsun)
-* [fcps/target](#fcps_target)
-* [fcps/tetra](#fcps_tetra)
-* [fcps/twodiamonds](#fcps_twodiamonds)
-* [fcps/wingnut](#fcps_wingnut)
+* [fcps/atom](#atom)
+* [fcps/chainlink](#chainlink)
+* [fcps/engytime](#engytime)
+* [fcps/hepta](#hepta)
+* [fcps/lsun](#lsun)
+* [fcps/target](#target)
+* [fcps/tetra](#tetra)
+* [fcps/twodiamonds](#twodiamonds)
+* [fcps/wingnut](#wingnut)
 
 --------------------------------------------------------------------------------
 
-## fcps/atom (n=800, d=3) <a name="fcps_atom"></a>
+## fcps/atom (n=800, d=3) <a name="atom"></a>
 
     Source: Ultsch A., Clustering with SOM: U*C,
     In Proc. Workshop on Self-Organizing Maps, Paris, France, 2005, 75-82.
@@ -37,7 +37,7 @@ is authored/edited/maintained by [Marek Gagolewski](https://www.gagolewski.com)*
 
 #### `labels0`
 
-true_k= 2, noise=    0, true_g=0.000
+true_k= 2, noise=    0
 
 label_counts=[400, 400]
 
@@ -46,7 +46,7 @@ label_counts=[400, 400]
 
 
 
-## fcps/chainlink (n=1000, d=3) <a name="fcps_chainlink"></a>
+## fcps/chainlink (n=1000, d=3) <a name="chainlink"></a>
 
     Source: Ultsch A., Clustering with SOM: U*C,
     In Proc. Workshop on Self-Organizing Maps, Paris, France, 2005, 75-82.
@@ -66,7 +66,7 @@ label_counts=[400, 400]
 
 #### `labels0`
 
-true_k= 2, noise=    0, true_g=0.000
+true_k= 2, noise=    0
 
 label_counts=[500, 500]
 
@@ -75,7 +75,7 @@ label_counts=[500, 500]
 
 
 
-## fcps/engytime (n=4096, d=2) <a name="fcps_engytime"></a>
+## fcps/engytime (n=4096, d=2) <a name="engytime"></a>
 
     Source: Ultsch A., Clustering with SOM: U*C,
     In Proc. Workshop on Self-Organizing Maps, Paris, France, 2005, 75-82.
@@ -94,7 +94,7 @@ label_counts=[500, 500]
 
 #### `labels0`
 
-true_k= 2, noise=    0, true_g=0.000
+true_k= 2, noise=    0
 
 label_counts=[2048, 2048]
 
@@ -102,7 +102,7 @@ label_counts=[2048, 2048]
 
 #### `labels1`
 
-true_k= 2, noise=    0, true_g=0.001
+true_k= 2, noise=    0
 
 label_counts=[2050, 2046]
 
@@ -111,7 +111,7 @@ label_counts=[2050, 2046]
 
 
 
-## fcps/hepta (n=212, d=3) <a name="fcps_hepta"></a>
+## fcps/hepta (n=212, d=3) <a name="hepta"></a>
 
     Source: Ultsch A., Clustering with SOM: U*C,
     In Proc. Workshop on Self-Organizing Maps, Paris, France, 2005, 75-82.
@@ -131,7 +131,7 @@ label_counts=[2050, 2046]
 
 #### `labels0`
 
-true_k= 7, noise=    0, true_g=0.009
+true_k= 7, noise=    0
 
 label_counts=[32, 30, 30, 30, 30, 30, 30]
 
@@ -140,7 +140,7 @@ label_counts=[32, 30, 30, 30, 30, 30, 30]
 
 
 
-## fcps/lsun (n=400, d=2) <a name="fcps_lsun"></a>
+## fcps/lsun (n=400, d=2) <a name="lsun"></a>
 
     Source: Ultsch A., Clustering with SOM: U*C,
     In Proc. Workshop on Self-Organizing Maps, Paris, France, 2005, 75-82.
@@ -160,7 +160,7 @@ label_counts=[32, 30, 30, 30, 30, 30, 30]
 
 #### `labels0`
 
-true_k= 3, noise=    0, true_g=0.250
+true_k= 3, noise=    0
 
 label_counts=[200, 100, 100]
 
@@ -169,7 +169,7 @@ label_counts=[200, 100, 100]
 
 
 
-## fcps/target (n=770, d=2) <a name="fcps_target"></a>
+## fcps/target (n=770, d=2) <a name="target"></a>
 
     Source: Ultsch A., Clustering with SOM: U*C,
     In Proc. Workshop on Self-Organizing Maps, Paris, France, 2005, 75-82.
@@ -192,7 +192,7 @@ label_counts=[200, 100, 100]
 
 #### `labels0`
 
-true_k= 6, noise=    0, true_g=0.790
+true_k= 6, noise=    0
 
 label_counts=[395, 363, 3, 3, 3, 3]
 
@@ -200,7 +200,7 @@ label_counts=[395, 363, 3, 3, 3, 3]
 
 #### `labels1`
 
-true_k= 2, noise=   12, true_g=0.042
+true_k= 2, noise=   12
 
 label_counts=[395, 363]
 
@@ -209,7 +209,7 @@ label_counts=[395, 363]
 
 
 
-## fcps/tetra (n=400, d=3) <a name="fcps_tetra"></a>
+## fcps/tetra (n=400, d=3) <a name="tetra"></a>
 
     Source: Ultsch A., Clustering with SOM: U*C,
     In Proc. Workshop on Self-Organizing Maps, Paris, France, 2005, 75-82.
@@ -229,7 +229,7 @@ label_counts=[395, 363]
 
 #### `labels0`
 
-true_k= 4, noise=    0, true_g=0.000
+true_k= 4, noise=    0
 
 label_counts=[100, 100, 100, 100]
 
@@ -238,7 +238,7 @@ label_counts=[100, 100, 100, 100]
 
 
 
-## fcps/twodiamonds (n=800, d=2) <a name="fcps_twodiamonds"></a>
+## fcps/twodiamonds (n=800, d=2) <a name="twodiamonds"></a>
 
     Source: Ultsch A., Clustering with SOM: U*C,
     In Proc. Workshop on Self-Organizing Maps, Paris, France, 2005, 75-82.
@@ -258,7 +258,7 @@ label_counts=[100, 100, 100, 100]
 
 #### `labels0`
 
-true_k= 2, noise=    0, true_g=0.000
+true_k= 2, noise=    0
 
 label_counts=[400, 400]
 
@@ -267,7 +267,7 @@ label_counts=[400, 400]
 
 
 
-## fcps/wingnut (n=1016, d=2) <a name="fcps_wingnut"></a>
+## fcps/wingnut (n=1016, d=2) <a name="wingnut"></a>
 
     Source: Ultsch A., Clustering with SOM: U*C,
     In Proc. Workshop on Self-Organizing Maps, Paris, France, 2005, 75-82.
@@ -287,7 +287,7 @@ label_counts=[400, 400]
 
 #### `labels0`
 
-true_k= 2, noise=    0, true_g=0.000
+true_k= 2, noise=    0
 
 label_counts=[508, 508]
 

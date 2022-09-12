@@ -6,18 +6,18 @@ is authored/edited/maintained by [Marek Gagolewski](https://www.gagolewski.com)*
 
 **Datasets**
 
-* [uci/ecoli](#uci_ecoli)
-* [uci/glass](#uci_glass)
-* [uci/ionosphere](#uci_ionosphere)
-* [uci/sonar](#uci_sonar)
-* [uci/statlog](#uci_statlog)
-* [uci/wdbc](#uci_wdbc)
-* [uci/wine](#uci_wine)
-* [uci/yeast](#uci_yeast)
+* [uci/ecoli](#ecoli)
+* [uci/glass](#glass)
+* [uci/ionosphere](#ionosphere)
+* [uci/sonar](#sonar)
+* [uci/statlog](#statlog)
+* [uci/wdbc](#wdbc)
+* [uci/wine](#wine)
+* [uci/yeast](#yeast)
 
 --------------------------------------------------------------------------------
 
-## uci/ecoli (n=336, d=7) <a name="uci_ecoli"></a>
+## uci/ecoli (n=336, d=7) <a name="ecoli"></a>
 
     Ecoli
     
@@ -34,7 +34,7 @@ is authored/edited/maintained by [Marek Gagolewski](https://www.gagolewski.com)*
 
 #### `labels0`
 
-true_k= 8, noise=    0, true_g=0.645
+true_k= 8, noise=    0
 
 label_counts=[143, 77, 52, 35, 20, 5, 2, 2]
 
@@ -44,7 +44,7 @@ label_counts=[143, 77, 52, 35, 20, 5, 2, 2]
 
 
 
-## uci/glass (n=214, d=9) <a name="uci_glass"></a>
+## uci/glass (n=214, d=9) <a name="glass"></a>
 
     Glass Identification
     
@@ -61,7 +61,7 @@ label_counts=[143, 77, 52, 35, 20, 5, 2, 2]
 
 #### `labels0`
 
-true_k= 6, noise=    0, true_g=0.484
+true_k= 6, noise=    0
 
 label_counts=[70, 76, 17, 29, 13, 9]
 
@@ -71,7 +71,7 @@ label_counts=[70, 76, 17, 29, 13, 9]
 
 
 
-## uci/ionosphere (n=351, d=34) <a name="uci_ionosphere"></a>
+## uci/ionosphere (n=351, d=34) <a name="ionosphere"></a>
 
     Ionosphere
     
@@ -88,7 +88,7 @@ label_counts=[70, 76, 17, 29, 13, 9]
 
 #### `labels0`
 
-true_k= 2, noise=    0, true_g=0.282
+true_k= 2, noise=    0
 
 label_counts=[225, 126]
 
@@ -98,7 +98,7 @@ label_counts=[225, 126]
 
 
 
-## uci/sonar (n=208, d=60) <a name="uci_sonar"></a>
+## uci/sonar (n=208, d=60) <a name="sonar"></a>
 
     Connectionist Bench (Sonar, Mines vs. Rocks)
     
@@ -115,7 +115,7 @@ label_counts=[225, 126]
 
 #### `labels0`
 
-true_k= 2, noise=    0, true_g=0.067
+true_k= 2, noise=    0
 
 label_counts=[97, 111]
 
@@ -125,7 +125,7 @@ label_counts=[97, 111]
 
 
 
-## uci/statlog (n=2310, d=19) <a name="uci_statlog"></a>
+## uci/statlog (n=2310, d=19) <a name="statlog"></a>
 
     Statlog (Image Segmentation)
     
@@ -142,7 +142,7 @@ label_counts=[97, 111]
 
 #### `labels0`
 
-true_k= 7, noise=    0, true_g=0.000
+true_k= 7, noise=    0
 
 label_counts=[330, 330, 330, 330, 330, 330, 330]
 
@@ -152,7 +152,7 @@ label_counts=[330, 330, 330, 330, 330, 330, 330]
 
 
 
-## uci/wdbc (n=569, d=30) <a name="uci_wdbc"></a>
+## uci/wdbc (n=569, d=30) <a name="wdbc"></a>
 
     Breast Cancer Wisconsin (Diagnostic)
     
@@ -169,7 +169,7 @@ label_counts=[330, 330, 330, 330, 330, 330, 330]
 
 #### `labels0`
 
-true_k= 2, noise=    0, true_g=0.255
+true_k= 2, noise=    0
 
 label_counts=[212, 357]
 
@@ -179,7 +179,7 @@ label_counts=[212, 357]
 
 
 
-## uci/wine (n=178, d=13) <a name="uci_wine"></a>
+## uci/wine (n=178, d=13) <a name="wine"></a>
 
     Wine
     
@@ -196,7 +196,7 @@ label_counts=[212, 357]
 
 #### `labels0`
 
-true_k= 3, noise=    0, true_g=0.129
+true_k= 3, noise=    0
 
 label_counts=[59, 71, 48]
 
@@ -206,7 +206,7 @@ label_counts=[59, 71, 48]
 
 
 
-## uci/yeast (n=1484, d=8) <a name="uci_yeast"></a>
+## uci/yeast (n=1484, d=8) <a name="yeast"></a>
 
     Yeast
     
@@ -223,7 +223,7 @@ label_counts=[59, 71, 48]
 
 #### `labels0`
 
-true_k=10, noise=    0, true_g=0.632
+true_k=10, noise=    0
 
 label_counts=[244, 429, 463, 44, 51, 163, 35, 30, 20, 5]
 

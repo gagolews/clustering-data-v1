@@ -6,32 +6,32 @@ is authored/edited/maintained by [Marek Gagolewski](https://www.gagolewski.com)*
 
 **Datasets**
 
-* [wut/circles](#wut_circles)
-* [wut/cross](#wut_cross)
-* [wut/graph](#wut_graph)
-* [wut/isolation](#wut_isolation)
-* [wut/labirynth](#wut_labirynth)
-* [wut/mk1](#wut_mk1)
-* [wut/mk2](#wut_mk2)
-* [wut/mk3](#wut_mk3)
-* [wut/mk4](#wut_mk4)
-* [wut/olympic](#wut_olympic)
-* [wut/smile](#wut_smile)
-* [wut/stripes](#wut_stripes)
-* [wut/trajectories](#wut_trajectories)
-* [wut/trapped_lovers](#wut_trapped_lovers)
-* [wut/twosplashes](#wut_twosplashes)
-* [wut/windows](#wut_windows)
-* [wut/x1](#wut_x1)
-* [wut/x2](#wut_x2)
-* [wut/x3](#wut_x3)
-* [wut/z1](#wut_z1)
-* [wut/z2](#wut_z2)
-* [wut/z3](#wut_z3)
+* [wut/circles](#circles)
+* [wut/cross](#cross)
+* [wut/graph](#graph)
+* [wut/isolation](#isolation)
+* [wut/labirynth](#labirynth)
+* [wut/mk1](#mk1)
+* [wut/mk2](#mk2)
+* [wut/mk3](#mk3)
+* [wut/mk4](#mk4)
+* [wut/olympic](#olympic)
+* [wut/smile](#smile)
+* [wut/stripes](#stripes)
+* [wut/trajectories](#trajectories)
+* [wut/trapped_lovers](#trapped_lovers)
+* [wut/twosplashes](#twosplashes)
+* [wut/windows](#windows)
+* [wut/x1](#x1)
+* [wut/x2](#x2)
+* [wut/x3](#x3)
+* [wut/z1](#z1)
+* [wut/z2](#z2)
+* [wut/z3](#z3)
 
 --------------------------------------------------------------------------------
 
-## wut/circles (n=4000, d=2) <a name="wut_circles"></a>
+## wut/circles (n=4000, d=2) <a name="circles"></a>
 
     Set name: Circles
     Author: Aleksander Truszczyński (Warsaw University of Technology)
@@ -47,7 +47,7 @@ is authored/edited/maintained by [Marek Gagolewski](https://www.gagolewski.com)*
 
 #### `labels0`
 
-true_k= 4, noise=    0, true_g=0.000
+true_k= 4, noise=    0
 
 label_counts=[1000, 1000, 1000, 1000]
 
@@ -56,7 +56,7 @@ label_counts=[1000, 1000, 1000, 1000]
 
 
 
-## wut/cross (n=2000, d=2) <a name="wut_cross"></a>
+## wut/cross (n=2000, d=2) <a name="cross"></a>
 
     Author: Przemysław Kosewski (Warsaw University of Technology)
     
@@ -67,7 +67,7 @@ label_counts=[1000, 1000, 1000, 1000]
 
 #### `labels0`
 
-true_k= 4, noise=    0, true_g=0.000
+true_k= 4, noise=    0
 
 label_counts=[500, 500, 500, 500]
 
@@ -76,7 +76,7 @@ label_counts=[500, 500, 500, 500]
 
 
 
-## wut/graph (n=2500, d=2) <a name="wut_graph"></a>
+## wut/graph (n=2500, d=2) <a name="graph"></a>
 
     Author: Adam Wawrzeńczyk (Warsaw University of Technology)
     
@@ -91,7 +91,7 @@ label_counts=[500, 500, 500, 500]
 
 #### `labels0`
 
-true_k=10, noise=    0, true_g=0.000
+true_k=10, noise=    0
 
 label_counts=[250, 250, 250, 250, 250, 250, 250, 250, 250, 250]
 
@@ -100,7 +100,7 @@ label_counts=[250, 250, 250, 250, 250, 250, 250, 250, 250, 250]
 
 
 
-## wut/isolation (n=9000, d=2) <a name="wut_isolation"></a>
+## wut/isolation (n=9000, d=2) <a name="isolation"></a>
 
     Set name: Isolation
     Author: Aleksander Truszczyński (Warsaw University of Technology)
@@ -116,7 +116,7 @@ label_counts=[250, 250, 250, 250, 250, 250, 250, 250, 250, 250]
 
 #### `labels0`
 
-true_k= 3, noise=    0, true_g=0.000
+true_k= 3, noise=    0
 
 label_counts=[3000, 3000, 3000]
 
@@ -125,7 +125,7 @@ label_counts=[3000, 3000, 3000]
 
 
 
-## wut/labirynth (n=3546, d=2) <a name="wut_labirynth"></a>
+## wut/labirynth (n=3546, d=2) <a name="labirynth"></a>
 
     Author: Adam Wawrzeńczyk (Warsaw University of Technology)
     
@@ -140,7 +140,7 @@ label_counts=[3000, 3000, 3000]
 
 #### `labels0`
 
-true_k= 6, noise=    0, true_g=0.501
+true_k= 6, noise=    0
 
 label_counts=[1502, 722, 719, 250, 250, 103]
 
@@ -149,7 +149,7 @@ label_counts=[1502, 722, 719, 250, 250, 103]
 
 
 
-## wut/mk1 (n=300, d=2) <a name="wut_mk1"></a>
+## wut/mk1 (n=300, d=2) <a name="mk1"></a>
 
     Author: Mateusz Kobyłka (Warsaw University of Technology)
     
@@ -163,7 +163,7 @@ label_counts=[1502, 722, 719, 250, 250, 103]
 
 #### `labels0`
 
-true_k= 3, noise=    0, true_g=0.000
+true_k= 3, noise=    0
 
 label_counts=[100, 100, 100]
 
@@ -172,7 +172,7 @@ label_counts=[100, 100, 100]
 
 
 
-## wut/mk2 (n=1000, d=2) <a name="wut_mk2"></a>
+## wut/mk2 (n=1000, d=2) <a name="mk2"></a>
 
     Author: Mateusz Kobyłka (Warsaw University of Technology)
     
@@ -186,7 +186,7 @@ label_counts=[100, 100, 100]
 
 #### `labels0`
 
-true_k= 2, noise=    0, true_g=0.000
+true_k= 2, noise=    0
 
 label_counts=[500, 500]
 
@@ -195,7 +195,7 @@ label_counts=[500, 500]
 
 
 
-## wut/mk3 (n=600, d=3) <a name="wut_mk3"></a>
+## wut/mk3 (n=600, d=3) <a name="mk3"></a>
 
     Author: Mateusz Kobyłka (Warsaw University of Technology)
     
@@ -209,7 +209,7 @@ label_counts=[500, 500]
 
 #### `labels0`
 
-true_k= 3, noise=    0, true_g=0.000
+true_k= 3, noise=    0
 
 label_counts=[200, 200, 200]
 
@@ -218,7 +218,7 @@ label_counts=[200, 200, 200]
 
 
 
-## wut/mk4 (n=1500, d=3) <a name="wut_mk4"></a>
+## wut/mk4 (n=1500, d=3) <a name="mk4"></a>
 
     Author: Mateusz Kobyłka (Warsaw University of Technology)
     
@@ -232,7 +232,7 @@ label_counts=[200, 200, 200]
 
 #### `labels0`
 
-true_k= 3, noise=    0, true_g=0.000
+true_k= 3, noise=    0
 
 label_counts=[500, 500, 500]
 
@@ -241,7 +241,7 @@ label_counts=[500, 500, 500]
 
 
 
-## wut/olympic (n=5000, d=2) <a name="wut_olympic"></a>
+## wut/olympic (n=5000, d=2) <a name="olympic"></a>
 
     Author: Michał Maciąg (Warsaw University of Technology)
     
@@ -256,7 +256,7 @@ label_counts=[500, 500, 500]
 
 #### `labels0`
 
-true_k= 5, noise=    0, true_g=0.000
+true_k= 5, noise=    0
 
 label_counts=[1000, 1000, 1000, 1000, 1000]
 
@@ -265,7 +265,7 @@ label_counts=[1000, 1000, 1000, 1000, 1000]
 
 
 
-## wut/smile (n=1000, d=2) <a name="wut_smile"></a>
+## wut/smile (n=1000, d=2) <a name="smile"></a>
 
     Author: Przemyslaw Kosewski (Warsaw University of Technology)
     
@@ -277,7 +277,7 @@ label_counts=[1000, 1000, 1000, 1000, 1000]
 
 #### `labels0`
 
-true_k= 6, noise=    0, true_g=0.400
+true_k= 6, noise=    0
 
 label_counts=[500, 100, 100, 100, 100, 100]
 
@@ -285,7 +285,7 @@ label_counts=[500, 100, 100, 100, 100, 100]
 
 #### `labels1`
 
-true_k= 4, noise=    0, true_g=0.400
+true_k= 4, noise=    0
 
 label_counts=[500, 200, 200, 100]
 
@@ -294,7 +294,7 @@ label_counts=[500, 200, 200, 100]
 
 
 
-## wut/stripes (n=5000, d=2) <a name="wut_stripes"></a>
+## wut/stripes (n=5000, d=2) <a name="stripes"></a>
 
     Author: Michał Maciąg (Warsaw University of Technology)
     
@@ -309,7 +309,7 @@ label_counts=[500, 200, 200, 100]
 
 #### `labels0`
 
-true_k= 2, noise=    0, true_g=0.000
+true_k= 2, noise=    0
 
 label_counts=[2500, 2500]
 
@@ -318,7 +318,7 @@ label_counts=[2500, 2500]
 
 
 
-## wut/trajectories (n=10000, d=2) <a name="wut_trajectories"></a>
+## wut/trajectories (n=10000, d=2) <a name="trajectories"></a>
 
     Author: Michał Maciąg (Warsaw University of Technology)
     
@@ -333,7 +333,7 @@ label_counts=[2500, 2500]
 
 #### `labels0`
 
-true_k= 4, noise=    0, true_g=0.000
+true_k= 4, noise=    0
 
 label_counts=[2500, 2500, 2500, 2500]
 
@@ -342,7 +342,7 @@ label_counts=[2500, 2500, 2500, 2500]
 
 
 
-## wut/trapped_lovers (n=5000, d=3) <a name="wut_trapped_lovers"></a>
+## wut/trapped_lovers (n=5000, d=3) <a name="trapped_lovers"></a>
 
     Set name: Trapped Lovers
     Author: Aleksander Truszczyński (Warsaw University of Technology)
@@ -358,7 +358,7 @@ label_counts=[2500, 2500, 2500, 2500]
 
 #### `labels0`
 
-true_k= 3, noise=    0, true_g=0.400
+true_k= 3, noise=    0
 
 label_counts=[1000, 3000, 1000]
 
@@ -367,7 +367,7 @@ label_counts=[1000, 3000, 1000]
 
 
 
-## wut/twosplashes (n=400, d=2) <a name="wut_twosplashes"></a>
+## wut/twosplashes (n=400, d=2) <a name="twosplashes"></a>
 
     Author: Jędrzej Krauze (Warsaw University of Technology)
     
@@ -378,7 +378,7 @@ label_counts=[1000, 3000, 1000]
 
 #### `labels0`
 
-true_k= 2, noise=    0, true_g=0.000
+true_k= 2, noise=    0
 
 label_counts=[200, 200]
 
@@ -387,7 +387,7 @@ label_counts=[200, 200]
 
 
 
-## wut/windows (n=2977, d=2) <a name="wut_windows"></a>
+## wut/windows (n=2977, d=2) <a name="windows"></a>
 
     Author: Adam Wawrzeńczyk (Warsaw University of Technology)
     
@@ -402,7 +402,7 @@ label_counts=[200, 200]
 
 #### `labels0`
 
-true_k= 5, noise=    0, true_g=0.578
+true_k= 5, noise=    0
 
 label_counts=[1943, 284, 264, 246, 240]
 
@@ -411,7 +411,7 @@ label_counts=[1943, 284, 264, 246, 240]
 
 
 
-## wut/x1 (n=120, d=2) <a name="wut_x1"></a>
+## wut/x1 (n=120, d=2) <a name="x1"></a>
 
     Author: Eliza Kaczorek (Warsaw University of Technology)
     
@@ -422,7 +422,7 @@ label_counts=[1943, 284, 264, 246, 240]
 
 #### `labels0`
 
-true_k= 3, noise=    0, true_g=0.167
+true_k= 3, noise=    0
 
 label_counts=[50, 40, 30]
 
@@ -431,7 +431,7 @@ label_counts=[50, 40, 30]
 
 
 
-## wut/x2 (n=120, d=2) <a name="wut_x2"></a>
+## wut/x2 (n=120, d=2) <a name="x2"></a>
 
     Author: Eliza Kaczorek (Warsaw University of Technology)
     
@@ -442,7 +442,7 @@ label_counts=[50, 40, 30]
 
 #### `labels0`
 
-true_k= 3, noise=    0, true_g=0.167
+true_k= 3, noise=    0
 
 label_counts=[50, 40, 30]
 
@@ -451,7 +451,7 @@ label_counts=[50, 40, 30]
 
 
 
-## wut/x3 (n=185, d=2) <a name="wut_x3"></a>
+## wut/x3 (n=185, d=2) <a name="x3"></a>
 
     Author: Eliza Kaczorek (Warsaw University of Technology)
     
@@ -462,7 +462,7 @@ label_counts=[50, 40, 30]
 
 #### `labels0`
 
-true_k= 4, noise=    0, true_g=0.207
+true_k= 4, noise=    0
 
 label_counts=[65, 50, 40, 30]
 
@@ -471,7 +471,7 @@ label_counts=[65, 50, 40, 30]
 
 
 
-## wut/z1 (n=192, d=2) <a name="wut_z1"></a>
+## wut/z1 (n=192, d=2) <a name="z1"></a>
 
     Author: Anna Gierlak (Warsaw University of Technology)
     
@@ -482,7 +482,7 @@ label_counts=[65, 50, 40, 30]
 
 #### `labels0`
 
-true_k= 3, noise=    0, true_g=0.000
+true_k= 3, noise=    0
 
 label_counts=[64, 64, 64]
 
@@ -491,7 +491,7 @@ label_counts=[64, 64, 64]
 
 
 
-## wut/z2 (n=900, d=2) <a name="wut_z2"></a>
+## wut/z2 (n=900, d=2) <a name="z2"></a>
 
     Author: Anna Gierlak (Warsaw University of Technology)
     
@@ -502,7 +502,7 @@ label_counts=[64, 64, 64]
 
 #### `labels0`
 
-true_k= 5, noise=    0, true_g=0.583
+true_k= 5, noise=    0
 
 label_counts=[500, 200, 100, 50, 50]
 
@@ -511,7 +511,7 @@ label_counts=[500, 200, 100, 50, 50]
 
 
 
-## wut/z3 (n=1000, d=2) <a name="wut_z3"></a>
+## wut/z3 (n=1000, d=2) <a name="z3"></a>
 
     Author: Anna Gierlak (Warsaw University of Technology)
     
@@ -522,7 +522,7 @@ label_counts=[500, 200, 100, 50, 50]
 
 #### `labels0`
 
-true_k= 4, noise=    0, true_g=0.333
+true_k= 4, noise=    0
 
 label_counts=[400, 300, 200, 100]
 

@@ -6,20 +6,20 @@ is authored/edited/maintained by [Marek Gagolewski](https://www.gagolewski.com)*
 
 **Datasets**
 
-* [graves/dense](#graves_dense)
-* [graves/fuzzyx](#graves_fuzzyx)
-* [graves/line](#graves_line)
-* [graves/parabolic](#graves_parabolic)
-* [graves/ring](#graves_ring)
-* [graves/ring_noisy](#graves_ring_noisy)
-* [graves/ring_outliers](#graves_ring_outliers)
-* [graves/zigzag](#graves_zigzag)
-* [graves/zigzag_noisy](#graves_zigzag_noisy)
-* [graves/zigzag_outliers](#graves_zigzag_outliers)
+* [graves/dense](#dense)
+* [graves/fuzzyx](#fuzzyx)
+* [graves/line](#line)
+* [graves/parabolic](#parabolic)
+* [graves/ring](#ring)
+* [graves/ring_noisy](#ring_noisy)
+* [graves/ring_outliers](#ring_outliers)
+* [graves/zigzag](#zigzag)
+* [graves/zigzag_noisy](#zigzag_noisy)
+* [graves/zigzag_outliers](#zigzag_outliers)
 
 --------------------------------------------------------------------------------
 
-## graves/dense (n=200, d=2) <a name="graves_dense"></a>
+## graves/dense (n=200, d=2) <a name="dense"></a>
 
     Source: Daniel Graves, Witold Pedrycz, Kernel-based fuzzy clustering
     and fuzzy clustering: A comparative experimental study,
@@ -34,7 +34,7 @@ is authored/edited/maintained by [Marek Gagolewski](https://www.gagolewski.com)*
 
 #### `labels0`
 
-true_k= 2, noise=    0, true_g=0.000
+true_k= 2, noise=    0
 
 label_counts=[100, 100]
 
@@ -43,7 +43,7 @@ label_counts=[100, 100]
 
 
 
-## graves/fuzzyx (n=1000, d=2) <a name="graves_fuzzyx"></a>
+## graves/fuzzyx (n=1000, d=2) <a name="fuzzyx"></a>
 
     Source: Daniel Graves, Witold Pedrycz, Kernel-based fuzzy clustering
     and fuzzy clustering: A comparative experimental study,
@@ -58,7 +58,7 @@ label_counts=[100, 100]
 
 #### `labels0`
 
-true_k= 5, noise=    0, true_g=0.062
+true_k= 5, noise=    0
 
 label_counts=[217, 212, 210, 200, 161]
 
@@ -66,7 +66,7 @@ label_counts=[217, 212, 210, 200, 161]
 
 #### `labels1`
 
-true_k= 2, noise=    0, true_g=0.172
+true_k= 2, noise=    0
 
 label_counts=[586, 414]
 
@@ -74,7 +74,7 @@ label_counts=[586, 414]
 
 #### `labels2`
 
-true_k= 2, noise=    0, true_g=0.000
+true_k= 2, noise=    0
 
 label_counts=[500, 500]
 
@@ -82,7 +82,7 @@ label_counts=[500, 500]
 
 #### `labels3`
 
-true_k= 2, noise=    0, true_g=0.116
+true_k= 2, noise=    0
 
 label_counts=[558, 442]
 
@@ -90,7 +90,7 @@ label_counts=[558, 442]
 
 #### `labels4`
 
-true_k= 2, noise=    0, true_g=0.000
+true_k= 2, noise=    0
 
 label_counts=[500, 500]
 
@@ -98,7 +98,7 @@ label_counts=[500, 500]
 
 #### `labels5`
 
-true_k= 4, noise=    0, true_g=0.105
+true_k= 4, noise=    0
 
 label_counts=[314, 245, 226, 215]
 
@@ -107,7 +107,7 @@ label_counts=[314, 245, 226, 215]
 
 
 
-## graves/line (n=250, d=2) <a name="graves_line"></a>
+## graves/line (n=250, d=2) <a name="line"></a>
 
     Source: Daniel Graves, Witold Pedrycz, Kernel-based fuzzy clustering
     and fuzzy clustering: A comparative experimental study,
@@ -122,7 +122,7 @@ label_counts=[314, 245, 226, 215]
 
 #### `labels0`
 
-true_k= 2, noise=    0, true_g=0.600
+true_k= 2, noise=    0
 
 label_counts=[200, 50]
 
@@ -131,7 +131,7 @@ label_counts=[200, 50]
 
 
 
-## graves/parabolic (n=1000, d=2) <a name="graves_parabolic"></a>
+## graves/parabolic (n=1000, d=2) <a name="parabolic"></a>
 
     Source: Daniel Graves, Witold Pedrycz, Kernel-based fuzzy clustering
     and fuzzy clustering: A comparative experimental study,
@@ -146,7 +146,7 @@ label_counts=[200, 50]
 
 #### `labels0`
 
-true_k= 2, noise=    0, true_g=0.016
+true_k= 2, noise=    0
 
 label_counts=[508, 492]
 
@@ -154,7 +154,7 @@ label_counts=[508, 492]
 
 #### `labels1`
 
-true_k= 4, noise=    0, true_g=0.152
+true_k= 4, noise=    0
 
 label_counts=[320, 277, 214, 189]
 
@@ -163,7 +163,7 @@ label_counts=[320, 277, 214, 189]
 
 
 
-## graves/ring (n=1000, d=2) <a name="graves_ring"></a>
+## graves/ring (n=1000, d=2) <a name="ring"></a>
 
     Source: Daniel Graves, Witold Pedrycz, Kernel-based fuzzy clustering
     and fuzzy clustering: A comparative experimental study,
@@ -178,7 +178,7 @@ label_counts=[320, 277, 214, 189]
 
 #### `labels0`
 
-true_k= 2, noise=    0, true_g=0.000
+true_k= 2, noise=    0
 
 label_counts=[500, 500]
 
@@ -187,7 +187,7 @@ label_counts=[500, 500]
 
 
 
-## graves/ring_noisy (n=1050, d=2) <a name="graves_ring_noisy"></a>
+## graves/ring_noisy (n=1050, d=2) <a name="ring_noisy"></a>
 
     Source: Daniel Graves, Witold Pedrycz, Kernel-based fuzzy clustering
     and fuzzy clustering: A comparative experimental study,
@@ -202,7 +202,7 @@ label_counts=[500, 500]
 
 #### `labels0`
 
-true_k= 2, noise=   43, true_g=0.003
+true_k= 2, noise=   43
 
 label_counts=[505, 502]
 
@@ -211,7 +211,7 @@ label_counts=[505, 502]
 
 
 
-## graves/ring_outliers (n=1030, d=2) <a name="graves_ring_outliers"></a>
+## graves/ring_outliers (n=1030, d=2) <a name="ring_outliers"></a>
 
     Source: Daniel Graves, Witold Pedrycz, Kernel-based fuzzy clustering
     and fuzzy clustering: A comparative experimental study,
@@ -226,7 +226,7 @@ label_counts=[505, 502]
 
 #### `labels0`
 
-true_k= 5, noise=    0, true_g=0.714
+true_k= 5, noise=    0
 
 label_counts=[500, 500, 10, 10, 10]
 
@@ -234,7 +234,7 @@ label_counts=[500, 500, 10, 10, 10]
 
 #### `labels1`
 
-true_k= 2, noise=   30, true_g=0.000
+true_k= 2, noise=   30
 
 label_counts=[500, 500]
 
@@ -243,7 +243,7 @@ label_counts=[500, 500]
 
 
 
-## graves/zigzag (n=250, d=2) <a name="graves_zigzag"></a>
+## graves/zigzag (n=250, d=2) <a name="zigzag"></a>
 
     Source: Daniel Graves, Witold Pedrycz, Kernel-based fuzzy clustering
     and fuzzy clustering: A comparative experimental study,
@@ -258,7 +258,7 @@ label_counts=[500, 500]
 
 #### `labels0`
 
-true_k= 3, noise=    0, true_g=0.400
+true_k= 3, noise=    0
 
 label_counts=[150, 50, 50]
 
@@ -266,7 +266,7 @@ label_counts=[150, 50, 50]
 
 #### `labels1`
 
-true_k= 5, noise=    0, true_g=0.042
+true_k= 5, noise=    0
 
 label_counts=[56, 50, 50, 47, 47]
 
@@ -275,7 +275,7 @@ label_counts=[56, 50, 50, 47, 47]
 
 
 
-## graves/zigzag_noisy (n=300, d=2) <a name="graves_zigzag_noisy"></a>
+## graves/zigzag_noisy (n=300, d=2) <a name="zigzag_noisy"></a>
 
     Source: Daniel Graves, Witold Pedrycz, Kernel-based fuzzy clustering
     and fuzzy clustering: A comparative experimental study,
@@ -290,7 +290,7 @@ label_counts=[56, 50, 50, 47, 47]
 
 #### `labels0`
 
-true_k= 3, noise=   38, true_g=0.412
+true_k= 3, noise=   38
 
 label_counts=[159, 52, 51]
 
@@ -298,7 +298,7 @@ label_counts=[159, 52, 51]
 
 #### `labels1`
 
-true_k= 5, noise=   38, true_g=0.013
+true_k= 5, noise=   38
 
 label_counts=[54, 53, 52, 52, 51]
 
@@ -307,7 +307,7 @@ label_counts=[54, 53, 52, 52, 51]
 
 
 
-## graves/zigzag_outliers (n=280, d=2) <a name="graves_zigzag_outliers"></a>
+## graves/zigzag_outliers (n=280, d=2) <a name="zigzag_outliers"></a>
 
     Source: Daniel Graves, Witold Pedrycz, Kernel-based fuzzy clustering
     and fuzzy clustering: A comparative experimental study,
@@ -322,7 +322,7 @@ label_counts=[54, 53, 52, 52, 51]
 
 #### `labels0`
 
-true_k= 3, noise=   30, true_g=0.400
+true_k= 3, noise=   30
 
 label_counts=[150, 50, 50]
 
@@ -330,7 +330,7 @@ label_counts=[150, 50, 50]
 
 #### `labels1`
 
-true_k= 5, noise=   30, true_g=0.042
+true_k= 5, noise=   30
 
 label_counts=[56, 50, 50, 47, 47]
 

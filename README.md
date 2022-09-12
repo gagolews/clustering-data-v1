@@ -45,12 +45,16 @@ that make use of these.
 
 ## Changelog
 
-The datasets and reference labels included in this suite
+The datasets and the reference labels included in this suite
 are versioned. This ensures reproducibility.
 
 See <https://github.com/gagolews/clustering-data-v1/releases/> for
 downloadable snapshots.
 
+
+###  1.0.9991 (under development)
+
+-   ...
 
 
 ###  1.0.1 (2022-09-10)
