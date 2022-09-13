@@ -52,9 +52,11 @@ See <https://github.com/gagolews/clustering-data-v1/releases/> for
 downloadable snapshots.
 
 
-###  1.0.9991 (under development)
+###  1.1.0 (under development)
 
--   ...
+-   Each battery is now equipped with a README.txt file.
+
+-   ....
 
 
 ###  1.0.1 (2022-09-10)
@@ -94,8 +96,8 @@ downloadable snapshots.
 
 ## See Also
 
-<https://clustering-benchmarks.gagolewski.com> gives the description
-of our framework for benchmarking clustering algorithms.
+<https://clustering-benchmarks.gagolewski.com> gives a detailed description
+of the whole framework for benchmarking clustering algorithms.
 
 It also mentions where to find raw and aggregated results generated
 by many clustering methods when run on the datasets from this repository.

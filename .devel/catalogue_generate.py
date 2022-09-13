@@ -66,6 +66,9 @@ plt.rcParams.update({  # further graphical parameters
 #################################################################################
 
 
+
+# TODO: rewrite using clustbench.load_dataset etc.
+
 def process(f, battery, dataset):
     """
     Processes a single dataset

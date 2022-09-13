@@ -27,8 +27,8 @@ from natsort import natsorted
 def test(base_name):
     print("%-32s"%base_name, end="")
 
-    if not re.match(r"^.+/[a-z0-9_]+$", base_name):
-        raise Exception("data set name not like [a-z0-9_]+.")
+    #if not re.match(r"^.+/[a-z0-9_]+$", base_name):
+    #    raise Exception("data set name not like [a-z0-9_]+.")
 
     data_file = base_name+".data.gz"
     if not os.path.isfile(data_file):
@@ -72,7 +72,7 @@ def test(base_name):
     print("OK.")
 
 
-data_files = natsorted([f for f in glob.glob("*/*.data.gz")
+data_files = natsorted([f for f in glob.glob(os.path.join("*", "*.data.gz"))
                                    if not f.startswith("todo_")])
 for f in data_files:
     base_name = f[:-8]
