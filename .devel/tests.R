@@ -22,12 +22,15 @@ library("stringi")
 options(stringsAsFactors=FALSE)
 
 
-test <- function (metadata) {
-    data_file <- stri_paste(metadata$dataset, ".data.gz")
-    labels_file <- stri_paste(metadata$dataset, ".", metadata$labels, ".gz")
+test <- function(metadata)
+{
+    data_file <- file.path(metadata$battery,
+        stri_paste(metadata$dataset, ".data.gz"))
+    labels_file <- file.path(metadata$battery,
+        stri_paste(metadata$dataset, ".", metadata$labels, ".gz"))
     cat(labels_file, "...\n")
 
-    X    <- read.table(data_file)
+    X       <- read.table(data_file)
     labels  <- as.integer(read.table(labels_file)[,1])
 
     stopifnot(nrow(X) == metadata$n)
@@ -36,15 +39,22 @@ test <- function (metadata) {
 }
 
 
-metadata <- do.call(rbind,
-        lapply(
-            list.files(".catalogue/", pattern="\\.csv$", full.names=TRUE),
-            read.csv
-        )
+metadata <- do.call(
+    rbind,
+    lapply(
+        list.files(".catalogue/", pattern="\\.csv$", full.names=TRUE),
+        read.csv
+    )
 )
 
+for (b in unique(metadata$battery)) {
+    p <- file.path(b, "README.txt")
+    cat(p, "...\n")
+    stopifnot(file.exists(p))
+}
 
 for (i in seq_len(nrow(metadata)))
     test(metadata[i,])
+
 
 cat("OK.\n")
