@@ -56,7 +56,16 @@ downloadable snapshots.
 
 -   Each battery is now equipped with a README.txt file.
 
--   ....
+-   New label vectors:
+    wut/x2.labels1,
+    wut/x3.labels1
+
+-   Prettified (slightly) label vectors:
+    graves/fuzzyx.labels[1-4],
+    graves/parabolic.labels1
+
+-   Deleted label vectors:
+    graves/fuzzyx.labels5
 
 
 ###  1.0.1 (2022-09-10)

@@ -123,12 +123,12 @@ def process(f, battery, dataset):
 
 
         if X.shape[1] == 2:
-            genieclust.plots.plot_scatter(X, labels=labels[i], alpha=0.5)
+            genieclust.plots.plot_scatter(X, labels=labels[i]-1, alpha=0.5)
             plt.axis("equal")
 
         elif X.shape[1] == 1:
             X_aug = np.insert(X, 1, np.random.randn(len(X))*(X.max()-X.min())*1e-6, axis=1)
-            genieclust.plots.plot_scatter(X_aug, labels=labels[i], alpha=0.5)
+            genieclust.plots.plot_scatter(X_aug, labels=labels[i]-1, alpha=0.5)
             plt.axis("equal")
 
         elif X.shape[1] == 3:
@@ -136,7 +136,7 @@ def process(f, battery, dataset):
                 X[:, 0],
                 X[:, 1],
                 c=np.array(genieclust.plots.col, dtype=object)[
-                    (labels[i]) % len(genieclust.plots.col)
+                    (labels[i]-1) % len(genieclust.plots.col)
                 ],
                 alpha=0.5
             )

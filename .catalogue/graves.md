@@ -66,43 +66,35 @@ label_counts=[217, 212, 210, 200, 161]
 
 #### `labels1`
 
-true_k= 2, noise=    0
+true_k= 2, noise=  138
 
-label_counts=[586, 414]
+label_counts=[437, 425]
 
 ![](graves/fuzzyx.labels1.png)
 
 #### `labels2`
 
-true_k= 2, noise=    0
+true_k= 4, noise=  126
 
-label_counts=[500, 500]
+label_counts=[230, 224, 213, 207]
 
 ![](graves/fuzzyx.labels2.png)
 
 #### `labels3`
 
-true_k= 2, noise=    0
+true_k= 2, noise=  135
 
-label_counts=[558, 442]
+label_counts=[435, 430]
 
 ![](graves/fuzzyx.labels3.png)
 
 #### `labels4`
 
-true_k= 2, noise=    0
+true_k= 2, noise=  130
 
-label_counts=[500, 500]
+label_counts=[448, 422]
 
 ![](graves/fuzzyx.labels4.png)
-
-#### `labels5`
-
-true_k= 4, noise=    0
-
-label_counts=[314, 245, 226, 215]
-
-![](graves/fuzzyx.labels5.png)
 
 
 
@@ -156,7 +148,7 @@ label_counts=[508, 492]
 
 true_k= 4, noise=    0
 
-label_counts=[320, 277, 214, 189]
+label_counts=[266, 259, 232, 243]
 
 ![](graves/parabolic.labels1.png)
 
