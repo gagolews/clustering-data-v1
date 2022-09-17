@@ -33,7 +33,8 @@ Additionally, mention the exact version of this benchmark suite
 
 > Gagolewski M. et al. (Eds.), *A Benchmark Suite for Clustering Algorithms:
 Version 1.1.0*, 2022,
-<https://github.com/gagolews/clustering-data-v1/releases/tag/v1.1.0>.
+<https://github.com/gagolews/clustering-data-v1/releases/tag/v1.1.0>,
+DOI: [10.5281/zenodo.7088171](https://doi.org/10.5281/zenodo.7088171).
 
 
 The datasets are provided **solely for research purposes**,
@@ -67,6 +68,9 @@ downloadable snapshots.
 
 -   Deleted now redundant label vectors:
     graves/fuzzyx.labels5.
+
+-   The historical snapshot of this release is available at
+    DOI: [10.5281/zenodo.7088171](https://doi.org/10.5281/zenodo.7088171).
 
 
 ###  1.0.1 (2022-09-10)
