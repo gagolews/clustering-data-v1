@@ -2,6 +2,10 @@ The **[Framework for Benchmarking Clustering Algorithms](https://clustering-benc
 is authored/edited/maintained by [Marek Gagolewski](https://www.gagolewski.com)**
 
 
+[Benchmark suite](https://github.com/gagolews/clustering-data-v1) version 1.1.0
+
+
+
 --------------------------------------------------------------------------------
 
 **Datasets**

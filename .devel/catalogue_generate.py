@@ -212,6 +212,12 @@ if __name__ == "__main__":
 
     print("The **[Framework for Benchmarking Clustering Algorithms](https://clustering-benchmarks.gagolewski.com)", file=f)
     print("is authored/edited/maintained by [Marek Gagolewski](https://www.gagolewski.com)**\n", file=f)
+
+    with np.DataSource().open(os.path.join(data_path, "VERSION")) as vf:
+        version = vf.read()
+
+    print("\n[Benchmark suite](https://github.com/gagolews/clustering-data-v1) version %s\n" % version, file=f)
+
     print("\n"+("-"*80)+"\n", file=f)
 
     print("**Datasets**\n", file=f)
