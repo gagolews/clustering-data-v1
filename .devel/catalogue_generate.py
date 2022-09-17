@@ -30,6 +30,13 @@ import sys
 import genieclust
 from natsort import natsorted
 import shutil
+import clustbench
+
+# Sorry for this being hardcoded!
+# See https://github.com/gagolews/clustering-data-v1/
+data_path = "."
+# See https://github.com/gagolews/clustering-results-v1/
+results_path = "~/Projects/clustering-results-v1/original"
 
 #################################################################################
 # Global options
@@ -58,8 +65,8 @@ plt.rcParams.update({  # further graphical parameters
     "font.family":       "sans-serif",
     "font.sans-serif":   ["Alegreya Sans", "Alegreya"],
     "figure.autolayout": True,
-    "figure.dpi":        240,
-    "figure.figsize":    (5.9375, 3.4635),
+    "figure.dpi":        96,
+    "figure.figsize":    (3.5, 3.5),
 })
 
 
@@ -73,19 +80,17 @@ def process(f, battery, dataset):
     """
     Processes a single dataset
     """
-    X = np.loadtxt(os.path.join(battery, dataset+".data.gz"), ndmin=2)
-    # X = (X-X.mean(axis=0))/X.std(axis=None, ddof=1) # scale all axes proportionally
+    b = clustbench.load_dataset(battery, dataset, path=data_path, preprocess=False)
+    X = b.data
 
     print('## %s/%s (n=%d, d=%d) <a name="%s"></a>\n' % (
         battery, dataset, X.shape[0], X.shape[1], dataset
     ), file=f)
 
-    readme = os.path.join(battery, dataset+".txt")
-    shutil.copyfile(readme, os.path.join(".catalogue", readme))
-    with open(readme, "r") as readme_file:
-        for readme_line in readme_file.read().split("\n"):
-            print("    "+readme_line, file=f)
-    print("\n", file=f)
+    readme = b.description
+    #print(readme, file=f)
+    with open(os.path.join(".catalogue", battery, dataset+".txt"), "w") as rf:
+        print(readme, file=rf)
 
     label_names = sorted(
         [
@@ -93,29 +98,32 @@ def process(f, battery, dataset):
             for name in glob.glob(dataset+".labels*.gz", root_dir=battery)
         ])
 
-    labels = [
-        np.loadtxt(
-            os.path.join(battery, "%s.%s.gz" % (dataset, name)),
-            dtype='int'
-        ) for name in label_names
-    ]
+    labels = b.labels
+    label_names = [("labels%d" % i) for i in range(len(labels))]
+    true_K = [max(ll) for ll in labels]
+    all_K = np.unique(true_K)
+
     label_counts = [np.bincount(ll) for ll in labels]
     noise_counts = [c[0] for c in label_counts]
     #have_noise = [bool(c[0]) for c in label_counts]
     label_counts = [c[1:] for c in label_counts]
-    true_K = [len(c) for c in label_counts]
-    #true_G = [genieclust.inequity.gini_index(c) for c in label_counts]
+    true_G = [genieclust.inequity.gini_index(c) for c in label_counts]
+
 
     for i in range(len(label_names)):
-        print("#### `%s`\n\ntrue_k=%2d, noise=%5d\n\nlabel_counts=%r\n" % (
-                label_names[i], true_K[i], noise_counts[i],
-                label_counts[i].tolist()
-            ),
-            file=f
-        )
+        if X.shape[1] not in [1, 2, 3]:
+            print("#### `%s`\n\ntrue_k=%2d, noise=%5d, G=%.2f\n\nlabel_counts=%r\n" % (
+                    label_names[i], true_K[i], noise_counts[i],
+                    true_G[i],
+                    label_counts[i].tolist()
+                ),
+                file=f
+            )
+            print('> **(preview generation suppressed)**\n\n', file=f)
+            continue
 
         if X.shape[1] not in [1, 2, 3]:
-            print('> **(preview generation suppressed)**\n\n', file=f)
+            #print('> **(preview generation suppressed)**\n\n', file=f)
             continue
 
         plt.figure()
@@ -142,14 +150,15 @@ def process(f, battery, dataset):
             )
             #plt.axis("equal")
 
-        plt.title("%s/%s.%s (n=%d, d=%d, k=%d%s)" % (
+        plt.title("%s/%s.%s\nn=%d, d=%d, k=%d, G=%.2f%s" % (
             battery,
             dataset,
             label_names[i],
             X.shape[0],
             X.shape[1],
             true_K[i],
-            ", noise=%d" % noise_counts[i] if noise_counts[i] else ""
+            true_G[i],
+            ", noise=%d" % noise_counts[i] if noise_counts[i] else "",
         ))
 
         _fig_name = os.path.join(battery, "%s.%s.png" % (dataset, label_names[i]))
@@ -161,14 +170,11 @@ def process(f, battery, dataset):
         )
         plt.close()
 
-        print("![](%s)\n" % (_fig_name), file=f)
+        print("![](%s)" % (_fig_name), file=f)
 
         # with open(_fig_path, "rb") as img:
             # encoded_string = base64.b64encode(img.read()).decode("US-ASCII")
         #print("<img src='data:image/png;base64,"+encoded_string+"' alt='%s.%s' />\n"%(dataset, label_names[i]), file=f)
-
-
-
 
     print("\n\n", file=f)
 
@@ -180,7 +186,8 @@ def process(f, battery, dataset):
             d=X.shape[1],
             labels=label_names[i],
             k=true_K[i],
-            noise=noise_counts[i]
+            noise=noise_counts[i],
+            g=true_G[i]
         )
         for i in range(len(label_names))
     ]
@@ -195,13 +202,7 @@ if __name__ == "__main__":
         sys.exit("Usage: %s benchmark_folder" % sys.argv[0])
 
     battery = sys.argv[1]
-    if not os.path.isdir(battery):
-        raise Exception("`%s` is not a directory")
-
-    fnames = glob.glob("*.data.gz", root_dir=battery)
-    datasets = natsorted(
-        [re.search(r"(.*)\.data\.gz$", name)[1] for name in fnames]
-    )
+    datasets = clustbench.get_dataset_names(battery, data_path)
 
     image_folder = os.path.join(".catalogue", battery)
     if not os.path.isdir(image_folder): os.mkdir(image_folder)
@@ -228,7 +229,7 @@ if __name__ == "__main__":
 
     metadata_file = os.path.join(".catalogue", "%s.csv" % battery)
     pd.DataFrame(metadata).\
-        loc[:, ["battery", "dataset", "n", "d", "labels", "k", "noise"]].\
+        loc[:, ["battery", "dataset", "n", "d", "labels", "k", "noise", "g"]].\
         to_csv(metadata_file, header=True, index=False)
 
     print("Done.")
