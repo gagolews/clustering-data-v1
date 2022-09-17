@@ -34,9 +34,9 @@ import clustbench
 
 # Sorry for this being hardcoded!
 # See https://github.com/gagolews/clustering-data-v1/
-data_path = "."
+data_path = os.path.expanduser(".")
 # See https://github.com/gagolews/clustering-results-v1/
-results_path = "~/Projects/clustering-results-v1/original"
+results_path = os.path.expanduser("~/Projects/clustering-results-v1/original")
 
 #################################################################################
 # Global options
