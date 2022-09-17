@@ -27,13 +27,14 @@ the overall benchmarking methodology:
 > Gagolewski M., *A Framework for Benchmarking Clustering Algorithms*, 2022,
 <https://clustering-benchmarks.gagolewski.com>, submitted for publication.
 
+
 Additionally, mention the exact version of this benchmark suite
 (see *Changelog* below for version information):
 
 > Gagolewski M. et al. (Eds.), *A Benchmark Suite for Clustering Algorithms:
-Version 1.x.x*, 20xx,
-<https://github.com/gagolews/clustering-data-v1/releases/tag/v1.x.x>,
-DOI: 10.5281/zenodo.xxxxxxx.
+Version 1.1.0*, 2022,
+<https://github.com/gagolews/clustering-data-v1/releases/tag/v1.1.0>.
+
 
 The datasets are provided **solely for research purposes**,
 unless stated otherwise. Please cite the literature references mentioned
@@ -52,20 +53,20 @@ See <https://github.com/gagolews/clustering-data-v1/releases/> for
 downloadable snapshots.
 
 
-###  1.1.0 (under development)
+###  1.1.0 (2022-09-17)
 
 -   Each battery is now equipped with a README.txt file.
 
 -   New label vectors:
     wut/x2.labels1,
-    wut/x3.labels1
+    wut/x3.labels1.
 
 -   Prettified (slightly) label vectors:
     graves/fuzzyx.labels[1-4],
-    graves/parabolic.labels1
+    graves/parabolic.labels1.
 
--   Deleted label vectors:
-    graves/fuzzyx.labels5
+-   Deleted now redundant label vectors:
+    graves/fuzzyx.labels5.
 
 
 ###  1.0.1 (2022-09-10)
