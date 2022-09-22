@@ -24,14 +24,15 @@ and literature references.
 **How to Cite**: Please cite the following paper which describes
 the overall benchmarking methodology:
 
-> Gagolewski M., *A Framework for Benchmarking Clustering Algorithms*, 2022,
-<https://clustering-benchmarks.gagolewski.com>, submitted for publication.
-
+> Gagolewski M., *A framework for benchmarking clustering algorithms*,
+2022, <https://clustering-benchmarks.gagolewski.com>,
+DOI: [10.48550/arXiv.2209.09493](https://doi.org/10.48550/arXiv.2209.09493),
+under review (preprint).
 
 Additionally, mention the exact version of this benchmark suite
 (see *Changelog* below for version information):
 
-> Gagolewski M. et al. (Eds.), *A Benchmark Suite for Clustering Algorithms:
+> Gagolewski M. et al. (Eds.), *A benchmark suite for clustering algorithms:
 Version 1.1.0*, 2022,
 <https://github.com/gagolews/clustering-data-v1/releases/tag/v1.1.0>,
 DOI: [10.5281/zenodo.7088171](https://doi.org/10.5281/zenodo.7088171).
