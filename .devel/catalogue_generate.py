@@ -2,7 +2,7 @@
 
 """Generates the Catalogue of Clustering Datasets
 
-Copyleft (C) 2018-2022, Marek Gagolewski <https://www.gagolewski.com>
+Copyleft (C) 2018-2023, Marek Gagolewski <https://www.gagolewski.com>
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -41,7 +41,7 @@ results_path = os.path.expanduser("~/Projects/clustering-results-v1/original")
 #################################################################################
 # Global options
 
-plt.style.use("seaborn")  # overall plot style
+plt.style.use("seaborn-v0_8-whitegrid")  # overall plot style
 
 _colours = [  # the "R4" palette
     "#000000", "#DF536B", "#61D04F", "#2297E6",

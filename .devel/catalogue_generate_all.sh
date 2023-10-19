@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Copyleft (C) 2018-2022, Marek Gagolewski <https://www.gagolewski.com>
+# Copyleft (C) 2018-2023, Marek Gagolewski <https://www.gagolewski.com>
 
 # please run from within the repo's root folder
 

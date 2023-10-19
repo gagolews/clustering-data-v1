@@ -2,7 +2,7 @@
 
 """Generators for the `gKmg` Clustering Datasets
 
-Copyleft (C) 2018-2022, Marek Gagolewski <https://www.gagolewski.com>
+Copyleft (C) 2018-2023, Marek Gagolewski <https://www.gagolewski.com>
 
 A generalised version of SIPU's G2 sets
 (see https://cs.joensuu.fi/sipu/datasets/G2.txt),
