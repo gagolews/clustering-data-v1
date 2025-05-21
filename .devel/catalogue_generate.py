@@ -31,6 +31,7 @@ import genieclust
 from natsort import natsorted
 import shutil
 import clustbench
+from numpy.lib.npyio import DataSource
 
 # Sorry for this being hardcoded!
 # See https://github.com/gagolews/clustering-data-v1/
@@ -107,7 +108,7 @@ def process(f, battery, dataset):
     noise_counts = [c[0] for c in label_counts]
     #have_noise = [bool(c[0]) for c in label_counts]
     label_counts = [c[1:] for c in label_counts]
-    true_G = [genieclust.inequity.gini_index(c) for c in label_counts]
+    true_G = [genieclust.inequality.gini_index(c) for c in label_counts]
 
 
     for i in range(len(label_names)):
@@ -213,7 +214,7 @@ if __name__ == "__main__":
     print("The **[Framework for Benchmarking Clustering Algorithms](https://clustering-benchmarks.gagolewski.com)", file=f)
     print("is authored/edited/maintained by [Marek Gagolewski](https://www.gagolewski.com)**\n", file=f)
 
-    with np.DataSource().open(os.path.join(data_path, "VERSION")) as vf:
+    with DataSource().open(os.path.join(data_path, "VERSION")) as vf:
         version = vf.read()
 
     print("\n[Benchmark suite](https://github.com/gagolews/clustering-data-v1) version %s\n" % version, file=f)
