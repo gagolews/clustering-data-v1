@@ -12,3 +12,8 @@ the cluster variances should be corrected for space dimensionality;
 see the `g2mg` battery for an alternative.
 `Birch3` is not included as no ground-truth labels were provided.
 We excluded the `DIM`-sets as they are too easy for most algorithms.
+
+
+Gagolewski M., A framework for benchmarking clustering algorithms,
+SoftwareX 20:101270, 2022. DOI: 10.1016/j.softx.2022.101270.
+URL: <https://clustering-benchmarks.gagolewski.com/>.

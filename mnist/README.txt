@@ -11,3 +11,10 @@ This battery features two large, high-dimensional datasets:
 
 Both datasets consist of 70,000 flattened 28x28 grayscale images
 (train and test samples combined).
+
+
+
+
+Gagolewski M., A framework for benchmarking clustering algorithms,
+SoftwareX 20:101270, 2022. DOI: 10.1016/j.softx.2022.101270.
+URL: <https://clustering-benchmarks.gagolewski.com/>.

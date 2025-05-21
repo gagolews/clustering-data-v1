@@ -2,7 +2,7 @@
 
 """Generators for the `hKmg` Clustering Datasets
 
-Copyleft (C) 2018-2023, Marek Gagolewski <https://www.gagolewski.com>
+Copyleft (C) 2018-2025, Marek Gagolewski <https://www.gagolewski.com>
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -130,12 +130,11 @@ if __name__ == "__main__":
             readme = """\
 h2mg clustering benchmark
 Two %d-dimensional clusters, each with %d points. Each point is sampled
-from a sphere centered at its own cluster's centre, of radius that follows
+from a sphere centred at its own cluster's centre, of radius that follows
 the Gaussian distribution with scale %d*%d.
 
 
-Author: Marek Gagolewski (http://www.gagolewski.com)
-Copyleft 2020
+Copyleft 2020-2025, Marek Gagolewski <https://www.gagolewski.com>.
 Licensed under the Creative Commons Attribution 4.0 International License
 
 `labels0` gives reference labels based on which probability distribution's

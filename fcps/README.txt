@@ -14,3 +14,8 @@ e.g., from the R package FCPS <https://CRAN.R-project.org/package=FCPS>;
 see Thrun M.C., Ultsch A., Clustering benchmark datasets exploiting the
 fundamental clustering problems, Data in Brief 30:105501, 2020.
 DOI:10.1016/j.dib.2020.105501.
+
+
+Gagolewski M., A framework for benchmarking clustering algorithms,
+SoftwareX 20:101270, 2022. DOI: 10.1016/j.softx.2022.101270.
+URL: <https://clustering-benchmarks.gagolewski.com/>.

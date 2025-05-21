@@ -2,7 +2,7 @@
 
 """Generators for the `gKmg` Clustering Datasets
 
-Copyleft (C) 2018-2023, Marek Gagolewski <https://www.gagolewski.com>
+Copyleft (C) 2018-2025, Marek Gagolewski <https://www.gagolewski.com>
 
 A generalised version of SIPU's G2 sets
 (see https://cs.joensuu.fi/sipu/datasets/G2.txt),
@@ -132,8 +132,7 @@ Two %d-dimensional clusters, each with %d points that have
 i.i.d. Gaussian components with standard deviation %d*sqrt(%d/2).
 
 
-Author: Marek Gagolewski (http://www.gagolewski.com)
-Copyleft 2020
+Copyleft 2020-2025, Marek Gagolewski <https://www.gagolewski.com>.
 Licensed under the Creative Commons Attribution 4.0 International License
 
 `labels0` gives reference labels based on which probability distribution's
