@@ -60,6 +60,8 @@ downloadable snapshots.
 
 -   New datasets: mnist/digits10k and mnist/fashion10k
 
+-   sipu/compound.labels[134] were removed. labels2 were renamed labels1.
+
 
 ###  1.1.0 (2022-09-17)
 
