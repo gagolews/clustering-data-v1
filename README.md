@@ -16,7 +16,6 @@ example Python/R/MATLAB code, datasets explorer,
 and literature references.
 
 
-
 **Editor/Maintainer**:
 [Marek Gagolewski](https://www.gagolewski.com).
 
@@ -32,17 +31,14 @@ Additionally, mention the exact version of this benchmark suite
 (see *Changelog* below for version information):
 
 > Gagolewski M. et al. (Eds.), *A benchmark suite for clustering algorithms:
-Version 1.1.0*, 2022,
-<https://github.com/gagolews/clustering-data-v1/releases/tag/v1.1.0>,
-DOI: [10.5281/zenodo.7088171](https://doi.org/10.5281/zenodo.7088171).
+Version 1.2.0*, 2026,
+<https://github.com/gagolews/clustering-data-v1/releases/tag/v1.2.0>.
 
 
 The datasets are provided **solely for research purposes**,
 unless stated otherwise. Please cite the literature references mentioned
 in the corresponding dataset description files in any publications
 that make use of these.
-
-
 
 
 ## Changelog
