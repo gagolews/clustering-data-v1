@@ -9,10 +9,11 @@ This battery features two large, high-dimensional datasets:
     a similarly-structured dataset of Zalando articles
     compiled by H. Xiao, K. Rasul, and R. Vollgraf.
 
-Both datasets consist of 70,000 flattened 28x28 grayscale images
-(train and test samples combined).
+Each dataset has two versions:
 
+1. 70k - 70,000 flattened 28x28 grayscale images (train and test samples combined)
 
+2. 10k - 10,000 flattened 28x28 grayscale images (test samples only)
 
 
 Gagolewski M., A framework for benchmarking clustering algorithms,

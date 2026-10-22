@@ -54,6 +54,16 @@ See <https://github.com/gagolews/clustering-data-v1/releases/> for
 downloadable snapshots.
 
 
+###  1.2.0 (2026-10-22)
+
+-   mnist/digits was renamed mnist/digits70k
+
+-   mnist/fashion was renamed mnist/fashion70k
+
+-   new datasets: mnist/digits10k and mnist/fashion10k
+
+
+
 ###  1.1.0 (2022-09-17)
 
 -   Each battery is now equipped with a README.txt file.
@@ -66,7 +76,7 @@ downloadable snapshots.
     graves/fuzzyx.labels[1-4],
     graves/parabolic.labels1.
 
--   Deleted now redundant label vectors:
+-   Deleted the now-redundant label vectors:
     graves/fuzzyx.labels5.
 
 -   The historical snapshot of this release is available at
