@@ -56,12 +56,13 @@ downloadable snapshots.
 
 ###  1.2.0 (2026-10-22)
 
+-   New battery: cdc
+
 -   mnist/digits was renamed mnist/digits70k
 
 -   mnist/fashion was renamed mnist/fashion70k
 
--   new datasets: mnist/digits10k and mnist/fashion10k
-
+-   New datasets: mnist/digits10k and mnist/fashion10k
 
 
 ###  1.1.0 (2022-09-17)
@@ -79,7 +80,7 @@ downloadable snapshots.
 -   Deleted the now-redundant label vectors:
     graves/fuzzyx.labels5.
 
--   The historical snapshot of this release is available at
+-   The snapshot of this release is available at
     DOI: [10.5281/zenodo.7088171](https://doi.org/10.5281/zenodo.7088171).
 
 
@@ -94,7 +95,7 @@ downloadable snapshots.
 -   The project's homepage has been created. It is available at
     <https://clustering-benchmarks.gagolewski.com>.
 
--   The historical snapshot of this release is available at
+-   The snapshot of this release is available at
     DOI: [10.5281/zenodo.7066690](https://doi.org/10.5281/zenodo.7066690).
 
 
@@ -103,7 +104,7 @@ downloadable snapshots.
 -   Datasets in the 1st (v1.0.0) version of the benchmark
     battery are now frozen.
 
--   The historical snapshot of this release is available at
+-   The snapshot of this release is available at
     DOI: [10.5281/zenodo.3815066](https://doi.org/10.5281/zenodo.3815066).
 
 
