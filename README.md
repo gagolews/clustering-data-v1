@@ -33,6 +33,7 @@ Additionally, mention the exact version of this benchmark suite
 > Gagolewski M. et al. (Eds.), *A benchmark suite for clustering algorithms:
 Version 1.2.0*, 2026,
 <https://github.com/gagolews/clustering-data-v1/releases/tag/v1.2.0>.
+DOI:[10.5281/zenodo.23563578](https://doi.org/10.5281/zenodo.23563578).
 
 
 The datasets are provided **solely for research purposes**,
