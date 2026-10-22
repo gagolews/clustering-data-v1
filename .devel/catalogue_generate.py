@@ -2,7 +2,7 @@
 
 """Generates the Catalogue of Clustering Datasets
 
-Copyleft (C) 2018-2025, Marek Gagolewski <https://www.gagolewski.com>
+Copyleft (C) 2018-2026, Marek Gagolewski <https://www.gagolewski.com>
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -28,6 +28,7 @@ import glob
 import re
 import sys
 import genieclust
+import deadwood
 from natsort import natsorted
 import shutil
 import clustbench
@@ -132,20 +133,20 @@ def process(f, battery, dataset):
 
 
         if X.shape[1] == 2:
-            genieclust.plots.plot_scatter(X, labels=labels[i]-1, alpha=0.5)
+            deadwood.plots.plot_scatter(X, labels=labels[i]-1, alpha=0.5)
             plt.axis("equal")
 
         elif X.shape[1] == 1:
             X_aug = np.insert(X, 1, np.random.randn(len(X))*(X.max()-X.min())*1e-6, axis=1)
-            genieclust.plots.plot_scatter(X_aug, labels=labels[i]-1, alpha=0.5)
+            deadwood.plots.plot_scatter(X_aug, labels=labels[i]-1, alpha=0.5)
             plt.axis("equal")
 
         elif X.shape[1] == 3:
             ax.scatter(
                 X[:, 0],
                 X[:, 1],
-                c=np.array(genieclust.plots.col, dtype=object)[
-                    (labels[i]-1) % len(genieclust.plots.col)
+                c=np.array(deadwood.plots.colors, dtype=object)[
+                    (labels[i]-1) % len(deadwood.plots.colors)
                 ],
                 alpha=0.5
             )

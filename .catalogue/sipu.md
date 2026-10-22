@@ -2,7 +2,7 @@ The **[Framework for Benchmarking Clustering Algorithms](https://clustering-benc
 is authored/edited/maintained by [Marek Gagolewski](https://www.gagolewski.com)**
 
 
-[Benchmark suite](https://github.com/gagolews/clustering-data-v1) version 1.1.0
+[Benchmark suite](https://github.com/gagolews/clustering-data-v1) version 1.2.0
 
 
 
@@ -73,9 +73,6 @@ is authored/edited/maintained by [Marek Gagolewski](https://www.gagolewski.com)*
 
 ![](sipu/compound.labels0.png)
 ![](sipu/compound.labels1.png)
-![](sipu/compound.labels2.png)
-![](sipu/compound.labels3.png)
-![](sipu/compound.labels4.png)
 
 
 
